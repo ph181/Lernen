@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Skripte/Door_E.gd" type="Script" id=1]
+
+[node name="Door_E" type="Area2D"]
+modulate = Color( 0.870588, 0.917647, 0.0196078, 1 )
+show_behind_parent = true
+script = ExtResource( 1 )
+
+[node name="Node2D" type="CollisionPolygon2D" parent="."]
+modulate = Color( 0.698039, 0.788235, 0.054902, 0.341176 )
+polygon = PoolVector2Array( 624, 292, 720, 297, 726, 405, 624, 407 )
+
+[connection signal="input_event" from="." to="." method="_on_Door_E_input_event"]
+[connection signal="mouse_entered" from="." to="." method="_on_Door_E_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_Door_E_mouse_exited"]
