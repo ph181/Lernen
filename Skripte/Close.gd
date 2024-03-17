@@ -16,7 +16,7 @@ func _on_Close_gui_input(event):
 			get_parent().visible = false
 			get_parent().get_parent().get_node("CloseRaum").visible = true
 func _on_Close_mouse_entered():
-	rect_scale *= 1.2
+	scale *= 1.2
 
 func _on_Close_mouse_exited():
-	rect_scale /= 1.2
+	scale /= 1.2

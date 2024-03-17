@@ -1,181 +1,72 @@
-[gd_scene load_steps=20 format=2]
+[gd_scene load_steps=3 format=3 uid="uid://wm22n6lc2tpa"]
 
-[ext_resource path="res://Skripte/Klassenzimmer.gd" type="Script" id=1]
-[ext_resource path="res://Skripte/NPC_L.gd" type="Script" id=4]
-[ext_resource path="res://Grafiken/NPC_L-sheet.png" type="Texture" id=5]
-[ext_resource path="res://Grafiken/klassenzimmer.png" type="Texture" id=6]
+[ext_resource type="Texture2D" uid="uid://jttumstsd5nw" path="res://Grafiken/raum 1.png" id="2_wme1r"]
 
-[sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 83.9854, 208.131 )
+[sub_resource type="GDScript" id="GDScript_ovscq"]
+script/source = "extends Node2D
 
-[sub_resource type="AtlasTexture" id=16]
-flags = 4
-atlas = ExtResource( 5 )
-region = Rect2( 0, 0, 57, 149 )
 
-[sub_resource type="AtlasTexture" id=17]
-flags = 4
-atlas = ExtResource( 5 )
-region = Rect2( 57, 0, 57, 149 )
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
 
-[sub_resource type="AtlasTexture" id=18]
-flags = 4
-atlas = ExtResource( 5 )
-region = Rect2( 114, 0, 57, 149 )
 
-[sub_resource type="AtlasTexture" id=19]
-flags = 4
-atlas = ExtResource( 5 )
-region = Rect2( 171, 0, 57, 149 )
 
-[sub_resource type="AtlasTexture" id=20]
-flags = 4
-atlas = ExtResource( 5 )
-region = Rect2( 228, 0, 57, 149 )
+func _on_werkzeug_gui_input(event):
+	if event is InputEventMouseButton:
+		if event.is_pressed() and event.button_index == 1:
+			get_tree().change_scene_to_file(\"res://Szenen/Technikraum.tscn\") # pass # Replace with function body.
 
-[sub_resource type="AtlasTexture" id=21]
-flags = 4
-atlas = ExtResource( 5 )
-region = Rect2( 285, 0, 57, 149 )
 
-[sub_resource type="SpriteFrames" id=8]
-animations = [ {
-"frames": [ SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ), SubResource( 21 ) ],
-"loop": true,
-"name": "default",
-"speed": 5.0
-} ]
+func _on_ausprobieren_gui_input(event):
+	if event is InputEventMouseButton:
+		if event.is_pressed() and event.button_index == 1:
+			get_tree().change_scene_to_file(\"res://Szenen/Rocket_Horse_Building.tscn\")# 
 
-[sub_resource type="DynamicFontData" id=9]
-font_path = "res://MadeleinaSans-2VY3.ttf"
 
-[sub_resource type="DynamicFont" id=10]
-size = 32
-font_data = SubResource( 9 )
+func _on_quiz_gui_input(event):
+	if event is InputEventMouseButton:
+		if event.is_pressed() and event.button_index == 1:
+			get_tree().change_scene_to_file(\"res://Szenen/Quiz.tscn\") # 
 
-[sub_resource type="DynamicFontData" id=11]
-font_path = "res://MadeleinaSans-2VY3.ttf"
-
-[sub_resource type="DynamicFont" id=12]
-size = 30
-font_data = SubResource( 11 )
-
-[sub_resource type="Animation" id=13]
-length = 5.0
-tracks/0/type = "value"
-tracks/0/path = NodePath("ColorRect/Label:percent_visible")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0, 5 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 0,
-"values": [ 0.0, 1.0 ]
-}
-
-[sub_resource type="Animation" id=14]
-
-[sub_resource type="Animation" id=15]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/path = NodePath("ColorRect/Label:percent_visible")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ 1.0 ]
-}
+"
 
 [node name="Klassenzimmer" type="Node2D"]
-script = ExtResource( 1 )
+script = SubResource("GDScript_ovscq")
 
-[node name="Klassenzimmer1" type="Sprite" parent="."]
-scale = Vector2( 0.500377, 0.519922 )
-texture = ExtResource( 6 )
+[node name="Klassenzimmer1" type="Sprite2D" parent="."]
+position = Vector2(-1, 0)
+scale = Vector2(1.12598, 1.08167)
+texture = ExtResource("2_wme1r")
 centered = false
 
-[node name="NPC_L" type="Area2D" parent="." groups=["NPCs"]]
-position = Vector2( 789, 332 )
-script = ExtResource( 4 )
-
-[node name="CollisionPolygon2D" type="CollisionShape2D" parent="NPC_L"]
-position = Vector2( 78, 44 )
-shape = SubResource( 1 )
-
-[node name="NPC_L" type="AnimatedSprite" parent="NPC_L"]
-position = Vector2( 78.6227, 46.8113 )
-scale = Vector2( -3, 3 )
-frames = SubResource( 8 )
-
-[node name="ColorRect" type="ColorRect" parent="NPC_L"]
-margin_left = -607.0
-margin_top = -316.0
-margin_right = -139.0
-margin_bottom = 38.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Label" type="Label" parent="NPC_L/ColorRect"]
-margin_left = 25.0
-margin_top = 12.0
-margin_right = 442.0
-margin_bottom = 324.0
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-custom_fonts/font = SubResource( 10 )
-text = "Herzlich willkommen in der Schnupperstunde NWT.
-Möchtest du:
-
-1.  etwas über Werkzeuge erfahren?
-
-2. praktisch arbeiten?"
-autowrap = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Schrank" type="Control" parent="NPC_L/ColorRect"]
-margin_left = 4.8071
-margin_top = 151.0
-margin_right = 508.807
-margin_bottom = 189.0
+[node name="Werkzeug" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 100.0
+offset_top = 60.0
+offset_right = 449.0
+offset_bottom = 119.0
 mouse_default_cursor_shape = 2
 
-[node name="Schaukel" type="Control" parent="NPC_L/ColorRect"]
-margin_left = -1.0
-margin_top = 223.0
-margin_right = 521.0
-margin_bottom = 259.0
+[node name="Ausprobieren" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 103.0
+offset_top = 138.0
+offset_right = 452.0
+offset_bottom = 189.0
 mouse_default_cursor_shape = 2
 
-[node name="Label2" type="Label" parent="NPC_L/ColorRect"]
-margin_left = 215.0
-margin_top = 318.0
-margin_right = 262.0
-margin_bottom = 348.0
-mouse_filter = 1
+[node name="Quiz" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 103.0
+offset_top = 138.0
+offset_right = 452.0
+offset_bottom = 189.0
 mouse_default_cursor_shape = 2
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-custom_fonts/font = SubResource( 12 )
-text = "OK"
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="NPC_L"]
-anims/Dialog = SubResource( 13 )
-"anims/Neue Animation" = SubResource( 14 )
-anims/RESET = SubResource( 15 )
-
-[connection signal="input_event" from="NPC_L" to="NPC_L" method="_on_NPC_L_input_event"]
-[connection signal="mouse_entered" from="NPC_L" to="NPC_L" method="_on_NPC_L_mouse_entered"]
-[connection signal="mouse_exited" from="NPC_L" to="NPC_L" method="_on_NPC_L_mouse_exited"]
-[connection signal="gui_input" from="NPC_L/ColorRect/Schrank" to="NPC_L" method="_on_Schrnke_gui_input"]
-[connection signal="gui_input" from="NPC_L/ColorRect/Schaukel" to="NPC_L" method="_on_Schaukel_gui_input"]
-[connection signal="gui_input" from="NPC_L/ColorRect/Label2" to="NPC_L" method="_on_Label2_gui_input"]
+[connection signal="gui_input" from="Werkzeug" to="." method="_on_werkzeug_gui_input"]
+[connection signal="gui_input" from="Ausprobieren" to="." method="_on_ausprobieren_gui_input"]
+[connection signal="gui_input" from="Quiz" to="." method="_on_quiz_gui_input"]
