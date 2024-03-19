@@ -15,13 +15,13 @@ func _ready():
 func _on_werkzeug_gui_input(event):
 	if event is InputEventMouseButton:
 		if event.is_pressed() and event.button_index == 1:
-			get_tree().change_scene_to_file(\"res://Szenen/Technikraum.tscn\") # pass # Replace with function body.
+			get_tree().change_scene_to_file(\"res://Szenen/Schrank.tscn\") # pass # Replace with function body.
 
 
 func _on_ausprobieren_gui_input(event):
 	if event is InputEventMouseButton:
 		if event.is_pressed() and event.button_index == 1:
-			get_tree().change_scene_to_file(\"res://Szenen/Rocket_Horse_Building.tscn\")# 
+			get_tree().change_scene_to_file(\"res://Szenen/Werkstatt.tscn\")# 
 
 
 func _on_quiz_gui_input(event):
@@ -61,10 +61,10 @@ mouse_default_cursor_shape = 2
 [node name="Quiz" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 103.0
-offset_top = 138.0
-offset_right = 452.0
-offset_bottom = 189.0
+offset_left = 107.0
+offset_top = 206.0
+offset_right = 456.0
+offset_bottom = 257.0
 mouse_default_cursor_shape = 2
 
 [connection signal="gui_input" from="Werkzeug" to="." method="_on_werkzeug_gui_input"]

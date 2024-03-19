@@ -13,8 +13,7 @@ func _ready():
 func _on_Close_gui_input(event):
 	if event is InputEventMouseButton:
 		if event.is_pressed() and event.button_index == 1:
-			get_parent().visible = false
-			get_parent().get_parent().get_node("CloseRaum").visible = true
+			get_tree().change_scene_to_file("res://Szenen/Klassenzimmer.tscn") # pass # Replace with function body.
 func _on_Close_mouse_entered():
 	scale *= 1.2
 

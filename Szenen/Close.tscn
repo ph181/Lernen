@@ -4,7 +4,6 @@
 [ext_resource type="Texture2D" uid="uid://qup58v5bfn1k" path="res://Grafiken/close.png" id="2"]
 
 [node name="Close" type="TextureRect"]
-z_index = 1
 offset_left = 1093.0
 offset_top = 10.0
 offset_right = 1141.0

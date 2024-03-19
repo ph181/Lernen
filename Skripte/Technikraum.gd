@@ -4,7 +4,7 @@ extends Node2D
 func _ready():
 	for i in range(6):
 		var label = get_node("Schrank/Sprite" + str(i) + "/Label")
-		var tools = get_node("tools" + str(i))
+#		var tools = get_node("tools" + str(i))
 		label.mouse_entered.connect(_on_mouse_entered.bind(i))
 		label.mouse_exited.connect(_on_mouse_exited.bind(i))
 		label.gui_input.connect(_on_gui_input.bind(i))
@@ -25,7 +25,7 @@ func _on_gui_input(event,i):
 	var tools = get_node("tools" + str(i))
 	if event is InputEventMouseButton and event.is_pressed() and event.button_index == 1:
 		tools.visible = true
-		get_node("CloseRaum").visible = false
+#		get_node("CloseRaum").visible = false
 
 func _on_mouse_entered_util(i,k):
 	var colorrect = get_node("tools" + str(i) + "/util" + str(k) + "/ColorRect")

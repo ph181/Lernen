@@ -15,13 +15,13 @@ func _process(delta):
 func _on_werkzeug_gui_input(event):
 	if event is InputEventMouseButton:
 		if event.is_pressed() and event.button_index == 1:
-			get_tree().change_scene_to_file("res://Szenen/Technikraum.tscn") # pass # Replace with function body.
+			get_tree().change_scene_to_file("res://Szenen/Schrank.tscn") # pass # Replace with function body.
 
 
 func _on_ausprobieren_gui_input(event):
 	if event is InputEventMouseButton:
 		if event.is_pressed() and event.button_index == 1:
-			get_tree().change_scene_to_file("res://Szenen/Rocket_Horse_Building.tscn")# 
+			get_tree().change_scene_to_file("res://Szenen/Werkstatt.tscn")# 
 
 
 func _on_quiz_gui_input(event):
