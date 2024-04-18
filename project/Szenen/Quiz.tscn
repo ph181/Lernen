@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3hmf1pufvubc"]
+
+[ext_resource type="PackedScene" uid="uid://cydccfhrkvxsk" path="res://Szenen/Close.tscn" id="1_0tee6"]
+
+[node name="Quiz" type="Node2D"]
+
+[node name="Close" parent="." instance=ExtResource("1_0tee6")]
+offset_top = 15.0
+offset_bottom = 63.0
