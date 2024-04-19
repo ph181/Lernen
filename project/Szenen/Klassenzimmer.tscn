@@ -43,19 +43,21 @@ centered = false
 [node name="Werkzeug" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 100.0
-offset_top = 60.0
-offset_right = 449.0
-offset_bottom = 119.0
+offset_left = 97.0
+offset_top = 56.0
+offset_right = 446.0
+offset_bottom = 179.0
+rotation = -0.0791409
 mouse_default_cursor_shape = 2
 
 [node name="Ausprobieren" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 103.0
-offset_top = 138.0
-offset_right = 452.0
-offset_bottom = 189.0
+offset_left = 95.0
+offset_top = 246.0
+offset_right = 444.0
+offset_bottom = 343.0
+rotation = -0.122551
 mouse_default_cursor_shape = 2
 
 [node name="Quiz" type="Control" parent="."]
@@ -69,4 +71,3 @@ mouse_default_cursor_shape = 2
 
 [connection signal="gui_input" from="Werkzeug" to="." method="_on_werkzeug_gui_input"]
 [connection signal="gui_input" from="Ausprobieren" to="." method="_on_ausprobieren_gui_input"]
-[connection signal="gui_input" from="Quiz" to="." method="_on_quiz_gui_input"]
