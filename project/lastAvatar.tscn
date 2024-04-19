@@ -1,0 +1,39 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Szenen/Avatar/CompositeSprites.gd" type="Script" id=1]
+[ext_resource path="res://Grafik/Avatar/h6.png" type="Texture" id=2]
+[ext_resource path="res://Grafik/Avatar/acc5.png" type="Texture" id=3]
+[ext_resource path="res://Grafik/Avatar/o8.png" type="Texture" id=4]
+[ext_resource path="res://Grafik/Avatar/k5.png" type="Texture" id=5]
+[ext_resource path="res://Grafik/Avatar/u3.png" type="Texture" id=6]
+
+[node name="CompositeSprites" type="Node2D"]
+position = Vector2( 1160, 270 )
+scale = Vector2( -1, 1 )
+z_index = 1
+script = ExtResource( 1 )
+curr_acc = 4
+curr_kopf = 4
+curr_haare = 5
+curr_oben = 7
+curr_unten = 2
+
+[node name="kopf" type="Sprite" parent="."]
+scale = Vector2( 2, 2 )
+texture = ExtResource( 5 )
+
+[node name="haare" type="Sprite" parent="."]
+scale = Vector2( 2, 2 )
+texture = ExtResource( 2 )
+
+[node name="unten" type="Sprite" parent="."]
+scale = Vector2( 2, 2 )
+texture = ExtResource( 6 )
+
+[node name="oben" type="Sprite" parent="."]
+scale = Vector2( 2, 2 )
+texture = ExtResource( 4 )
+
+[node name="acc" type="Sprite" parent="."]
+scale = Vector2( 2, 2 )
+texture = ExtResource( 3 )

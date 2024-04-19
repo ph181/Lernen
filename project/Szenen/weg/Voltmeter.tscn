@@ -1,0 +1,245 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Grafik/Assets/Dachboden/Module/module.png" type="Texture" id=1]
+[ext_resource path="res://Grafik/Assets/Dachboden/Module/knodeSpr.png" type="Texture" id=2]
+
+[sub_resource type="GDScript" id=3]
+script/source = "extends Node2D
+
+var dragMod = false
+var dragL = false
+var dragR = false
+var collLeft = null
+var collRight = null
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	drawLines()
+
+func drawLines():
+	$leftLine.points = []
+	$rightLine.points = []
+	$leftLine.add_point(Vector2($Voltmeter.position.x-24,$Voltmeter.position.y))
+	$rightLine.add_point(Vector2($Voltmeter.position.x+24,$Voltmeter.position.y))
+	$leftLine.add_point(Vector2($LeftKn.position))
+	$rightLine.add_point(Vector2($RightKn.position))
+	
+
+
+func _input(event):
+	if event is InputEventMouseMotion:
+		
+		var wasmodified = false
+		if dragMod:
+			$Voltmeter.position = get_tree().root.get_mouse_position()
+			wasmodified = true
+			
+		if dragL:
+			$LeftKn.position = get_tree().root.get_mouse_position()
+			wasmodified = true
+
+		if dragR:
+			$RightKn.position = get_tree().root.get_mouse_position()
+			wasmodified = true
+			
+		if wasmodified:
+			drawLines()
+			checkForKnodeColl()
+		
+func _on_Control_gui_input(event):
+	if event is InputEventMouseButton and event.button_index == 1:
+		if event.is_pressed():
+			dragMod = true
+		else:
+			dragMod = false
+		
+func _on_ControlR_gui_input(event):
+	if event is InputEventMouseButton and event.button_index == 1:
+		if event.is_pressed():
+			dragR = true
+		else:
+			dragR= false
+			
+func _on_ControlL_gui_input(event):
+	if event is InputEventMouseButton and event.button_index == 1:
+		if event.is_pressed():
+			dragL = true
+		else:
+			dragL =false
+			
+func moveMe(x, y):
+			$Voltmeter.position.x = x
+			$Voltmeter.position.y = y
+			
+			$LeftKn.position = $Voltmeter.position
+			$LeftKn.position.x -= 48
+			
+			$RightKn.position = $Voltmeter.position
+			$RightKn.position.x += 48
+			drawLines()
+	
+func checkForKnodeColl():
+	var knodes = get_parent().get_node(\"Table/Knodes\").get_children()
+	collRight = null
+	collLeft = null
+	for kn in knodes:
+		if abs(kn.position.x - $LeftKn.position.x )<10 and \\
+			abs(kn.position.y - $LeftKn.position.y )<10 :
+				$LeftKn.position = kn.position
+				collLeft = kn
+				
+		
+		if abs(kn.position.x - $RightKn.position.x )<10 and \\
+			abs(kn.position.y - $RightKn.position.y )<10 :
+				$RightKn.position = kn.position
+				collRight = kn
+				
+				
+	if collLeft != null and collRight != null:
+		print(\"analyzing\")
+		var r1 = startAnalyze(collLeft, collRight)
+		var r2 = startAnalyze( collRight,collLeft)
+		$Voltmeter/Label.text =str(r2-r1)
+		
+func startAnalyze(start, end):
+	var V = []
+	var visited = []
+	var resistances = [] # u  ;)
+	for k in start.get_parent().get_children():
+		visited.append(false)
+	
+	V.append(start)
+	while V.size()>0:
+		var currentKn = V[0]
+		
+		
+		for e in get_parent().get_node(\"Table/Edges\").get_children():
+			var otherEdgeKn
+			if e.connectedKnodes[0] == currentKn:
+				otherEdgeKn = e.connectedKnodes[1]
+			elif  e.connectedKnodes[1] == currentKn:
+				otherEdgeKn = e.connectedKnodes[0]
+			else:
+				continue
+			
+			if e.isLockedDirection:
+				if otherEdgeKn == e.connectedKnodes[1]:
+					if e.power<0:
+						resistances.append(9)
+							
+						if !visited[otherEdgeKn.get_position_in_parent()]:
+							if otherEdgeKn== end:
+								continue
+							else:
+								V.append(otherEdgeKn)
+				if otherEdgeKn == e.connectedKnodes[0]:
+					if e.power>0:
+						resistances.append(9)
+							
+						if !visited[otherEdgeKn.get_position_in_parent()]:
+							if otherEdgeKn== end:
+								continue
+							else:
+								V.append(otherEdgeKn)
+				
+			else:
+				if  currentKn.get_position_in_parent() < otherEdgeKn.get_position_in_parent()  :
+						if e.power<0:
+							resistances.append(e.resistance *-abs(e.power))
+							
+							if !visited[otherEdgeKn.get_position_in_parent()]:
+								if otherEdgeKn== end:
+									continue
+								else:
+									V.append(otherEdgeKn)
+				else:
+						if e.power>0:
+							resistances.append(e.resistance *-abs(e.power))
+							if !visited[otherEdgeKn.get_position_in_parent()]:
+								if otherEdgeKn == end:
+									continue
+								else:
+									V.append(otherEdgeKn)
+		visited[currentKn.get_position_in_parent()] = true
+		V.remove(0)
+	var r= 0
+	for re in resistances:
+		r+= re
+	print(\"res: \"+str(resistances))
+	return r
+"
+
+[sub_resource type="DynamicFontData" id=1]
+font_path = "res://fonts/Terminal-Grotesque-master/Terminal-Grotesque-master/terminal-grotesque.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+font_data = SubResource( 1 )
+
+[node name="Voltmeter" type="Node2D"]
+script = SubResource( 3 )
+
+[node name="rightLine" type="Line2D" parent="."]
+points = PoolVector2Array( 65.7215, 96.4798 )
+width = 3.0
+
+[node name="leftLine" type="Line2D" parent="."]
+width = 3.0
+
+[node name="Voltmeter" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 144, 48, 48, 48 )
+
+[node name="Control" type="Control" parent="Voltmeter"]
+anchor_left = 0.004
+anchor_top = -0.009
+anchor_right = 0.004
+anchor_bottom = -0.009
+margin_left = -23.5794
+margin_top = -23.9877
+margin_right = 24.4206
+margin_bottom = 24.0124
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Voltmeter"]
+margin_left = -22.0
+margin_top = -21.0
+margin_right = 27.0
+margin_bottom = 4.0
+rect_scale = Vector2( 0.9, 0.9 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "100.0 V"
+
+[node name="LeftKn" type="Sprite" parent="."]
+position = Vector2( -47.0307, -0.568359 )
+scale = Vector2( 0.25, 0.25 )
+texture = ExtResource( 2 )
+
+[node name="ControlL" type="Control" parent="LeftKn"]
+margin_left = -14.8363
+margin_top = -16.4847
+margin_right = 25.1637
+margin_bottom = 23.5153
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RightKn" type="Sprite" parent="."]
+position = Vector2( 44.4209, -0.10022 )
+scale = Vector2( 0.25, 0.25 )
+texture = ExtResource( 2 )
+
+[node name="ControlR" type="Control" parent="RightKn"]
+margin_left = -18.1333
+margin_top = -14.8363
+margin_right = 21.8667
+margin_bottom = 25.1637
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="gui_input" from="Voltmeter/Control" to="." method="_on_Control_gui_input"]
+[connection signal="gui_input" from="LeftKn/ControlL" to="." method="_on_ControlL_gui_input"]
+[connection signal="gui_input" from="RightKn/ControlR" to="." method="_on_ControlR_gui_input"]

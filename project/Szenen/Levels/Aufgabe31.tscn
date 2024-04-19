@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Szenen/Levels/Aufgabe31.gd" type="Script" id=1]
+[ext_resource path="res://Szenen/Levels/AufgabeBase.tscn" type="PackedScene" id=2]
+
+[node name="Aufgabe31" instance=ExtResource( 2 )]
+script = ExtResource( 1 )
+
+[node name="Aufgabe" parent="." index="0"]
+text = "Parallelschaltung"
+
+[node name="Label" parent="Aufgabe" index="0"]
+text = "Schalte drei Lampen und eine Batterie jeweils parallel zueinander."

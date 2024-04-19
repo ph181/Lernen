@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Szenen/Avatar/CompositeSprites.gd" type="Script" id=1]
+
+[node name="CompositeSprites" type="Node2D"]
+position = Vector2( 887.176, 353.676 )
+scale = Vector2( 1.5, 1.5 )
+z_index = 1
+script = ExtResource( 1 )
+
+[node name="kopf" type="Sprite" parent="."]
+scale = Vector2( 2, 2 )
+
+[node name="haare" type="Sprite" parent="."]
+scale = Vector2( 2, 2 )
+
+[node name="unten" type="Sprite" parent="."]
+scale = Vector2( 2, 2 )
+
+[node name="oben" type="Sprite" parent="."]
+scale = Vector2( 2, 2 )
+
+[node name="acc" type="Sprite" parent="."]
+scale = Vector2( 2, 2 )

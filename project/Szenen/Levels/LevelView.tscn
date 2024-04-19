@@ -1,0 +1,123 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Szenen/GUI/BtnMainMenuBg.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Szenen/Levels/LevelView.gd" type="Script" id=2]
+[ext_resource path="res://Szenen/GUI/MainMenuBtn.gd" type="Script" id=3]
+[ext_resource path="res://Grafik/Assets/GUI/Background.png" type="Texture" id=4]
+[ext_resource path="res://Grafik/Assets/GUI/freiexp.png" type="Texture" id=5]
+[ext_resource path="res://Grafik/Assets/GUI/lvl_view.png" type="Texture" id=6]
+
+[sub_resource type="DynamicFontData" id=4]
+font_path = "res://fonts/Terminal-Grotesque-master/Terminal-Grotesque-master/terminal-grotesque_open.otf"
+
+[sub_resource type="DynamicFont" id=1]
+size = 36
+font_data = SubResource( 4 )
+
+[sub_resource type="DynamicFontData" id=5]
+font_path = "res://fonts/Terminal-Grotesque-master/Terminal-Grotesque-master/terminal-grotesque.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+font_data = SubResource( 5 )
+
+[sub_resource type="DynamicFontData" id=6]
+font_path = "res://fonts/Terminal-Grotesque-master/Terminal-Grotesque-master/terminal-grotesque.ttf"
+
+[sub_resource type="DynamicFont" id=3]
+size = 32
+font_data = SubResource( 6 )
+
+[node name="LevelView" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="bg" type="Sprite" parent="."]
+position = Vector2( 640, 360 )
+texture = ExtResource( 4 )
+
+[node name="Menuframe" type="Sprite" parent="."]
+position = Vector2( 640, 360 )
+texture = ExtResource( 6 )
+
+[node name="Label" type="Label" parent="Menuframe"]
+margin_left = -443.0
+margin_top = -257.0
+margin_right = 442.0
+margin_bottom = -207.0
+custom_colors/font_color = Color( 1, 0.803922, 0.615686, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Kapitel 1"
+align = 1
+valign = 1
+
+[node name="Control" type="Control" parent="Menuframe"]
+margin_left = -67.0
+margin_top = 138.0
+margin_right = 34.0
+margin_bottom = 240.0
+mouse_default_cursor_shape = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Menuframe/Control"]
+position = Vector2( 51.8706, 51.2213 )
+texture = ExtResource( 5 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Label2" type="Label" parent="Menuframe/Control/Sprite"]
+margin_left = -71.9794
+margin_top = 10.0593
+margin_right = 72.0206
+margin_bottom = 49.0593
+custom_colors/font_color = Color( 1, 0.803922, 0.615686, 0.87451 )
+custom_fonts/font = SubResource( 2 )
+text = "Ausprobieren"
+align = 1
+valign = 1
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="ScrollContainer2" type="ScrollContainer" parent="."]
+margin_left = 359.0
+margin_top = 256.0
+margin_right = 1059.0
+margin_bottom = 493.0
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="GridContainer" parent="ScrollContainer2"]
+margin_right = 700.0
+margin_bottom = 237.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+columns = 5
+
+[node name="Button" type="Node2D" parent="."]
+position = Vector2( 155.48, 784.798 )
+script = ExtResource( 3 )
+
+[node name="ButtonMainMenuBg" parent="Button" instance=ExtResource( 1 )]
+position = Vector2( -0.479996, -89.798 )
+
+[node name="Label" type="Label" parent="Button"]
+margin_left = -152.0
+margin_top = -114.0
+margin_right = 152.0
+margin_bottom = -70.0
+custom_colors/font_color = Color( 1, 0.462745, 0.47451, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "zurück"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="gui_input" from="Menuframe/Control" to="." method="_on_Control_gui_input"]
+[connection signal="mouse_entered" from="Menuframe/Control" to="." method="_on_Control_mouse_entered"]
+[connection signal="mouse_exited" from="Menuframe/Control" to="." method="_on_Control_mouse_exited"]
+[connection signal="clicked" from="Button/ButtonMainMenuBg" to="." method="_on_ButtonMainMenuBg_clicked"]

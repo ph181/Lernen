@@ -1,0 +1,751 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Szenen/GUI/SaveData.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+dirs = [ {
+"AufgListe1": {
+"allEdgesBase": [ {
+"connectedKnodes": [ 0, 1 ],
+"isCable": true,
+"isLockedDirection": false,
+"leftKnode": 0,
+"midx": 0.0,
+"midy": 0.0,
+"moduleOnEdge": -1,
+"originalR": 1e-05,
+"posInPar": 0,
+"posX": 741.329,
+"posY": 336.414,
+"resistance": 1e-05,
+"rightKnode": 1,
+"type": "Edge",
+"voltage": 0.0
+}, {
+"connectedKnodes": [ 2, 3 ],
+"isCable": true,
+"isLockedDirection": false,
+"leftKnode": 2,
+"midx": 0.0,
+"midy": 0.0,
+"moduleOnEdge": -1,
+"originalR": 1e-05,
+"posInPar": 1,
+"posX": 509.329,
+"posY": 336.414,
+"resistance": 1e-05,
+"rightKnode": 3,
+"type": "Edge",
+"voltage": 0.0
+}, {
+"connectedKnodes": [ 4, 5 ],
+"isCable": false,
+"isLockedDirection": false,
+"leftKnode": 4,
+"midx": 0.0,
+"midy": 0.0,
+"moduleOnEdge": 0,
+"originalR": 10.0,
+"posInPar": 2,
+"posX": 626.248,
+"posY": 352.245,
+"resistance": 1e-05,
+"rightKnode": 5,
+"type": "Edge",
+"voltage": 0.0
+}, {
+"connectedKnodes": [ 6, 7 ],
+"isCable": false,
+"isLockedDirection": true,
+"leftKnode": 6,
+"midx": 0.0,
+"midy": 0.0,
+"moduleOnEdge": 1,
+"originalR": 0.001,
+"posInPar": 3,
+"posX": 627.161,
+"posY": 237.469,
+"resistance": 1e-05,
+"rightKnode": 7,
+"type": "Edge",
+"voltage": 9.0
+} ],
+"allKnodesBase": [ {
+"neighbors": [ 1 ],
+"posInPar": 0,
+"posX": 741.329,
+"posY": 300.414,
+"type": "Knode"
+}, {
+"neighbors": [  ],
+"posInPar": 1,
+"posX": 741.329,
+"posY": 408.414,
+"type": "Knode"
+}, {
+"neighbors": [ 3 ],
+"posInPar": 2,
+"posX": 509.329,
+"posY": 300.414,
+"type": "Knode"
+}, {
+"neighbors": [  ],
+"posInPar": 3,
+"posX": 509.329,
+"posY": 408.414,
+"type": "Knode"
+}, {
+"neighbors": [ 5 ],
+"posInPar": 4,
+"posX": 590.248,
+"posY": 352.245,
+"type": "Knode"
+}, {
+"neighbors": [  ],
+"posInPar": 5,
+"posX": 662.248,
+"posY": 352.245,
+"type": "Knode"
+}, {
+"neighbors": [ 7 ],
+"posInPar": 6,
+"posX": 591.161,
+"posY": 237.469,
+"type": "Knode"
+}, {
+"neighbors": [  ],
+"posInPar": 7,
+"posX": 663.161,
+"posY": 237.469,
+"type": "Knode"
+} ],
+"allModulesBase": [ {
+"isVertical": false,
+"leftKnode": 4,
+"myEdge": 2,
+"posInPar": 0,
+"posX": 626.248,
+"posY": 352.245,
+"rightKnode": 5,
+"turned": 0,
+"type": "Lamp"
+}, {
+"isVertical": false,
+"leftKnode": 6,
+"myEdge": 3,
+"posInPar": 1,
+"posX": 627.161,
+"posY": 237.469,
+"rightKnode": 7,
+"turned": 0,
+"type": "Battery"
+} ],
+"tk_completed": [ false ]
+},
+"AufgListe2": {
+"allEdgesBase": [ {
+"connectedKnodes": [ 0, 1 ],
+"isCable": true,
+"isLockedDirection": false,
+"leftKnode": -1,
+"midx": 0.0,
+"midy": 0.0,
+"moduleOnEdge": -1,
+"originalR": 1e-05,
+"posInPar": 0,
+"posX": 513.0,
+"posY": 352.0,
+"resistance": 7.2e-06,
+"rightKnode": -1,
+"type": "Edge",
+"voltage": 0.0
+}, {
+"connectedKnodes": [ 2, 3 ],
+"isCable": true,
+"isLockedDirection": false,
+"leftKnode": -1,
+"midx": 0.0,
+"midy": 0.0,
+"moduleOnEdge": -1,
+"originalR": 1e-05,
+"posInPar": 1,
+"posX": 745.0,
+"posY": 352.0,
+"resistance": 7.28354e-06,
+"rightKnode": -1,
+"type": "Edge",
+"voltage": 0.0
+}, {
+"connectedKnodes": [ 1, 4 ],
+"isCable": false,
+"isLockedDirection": true,
+"leftKnode": -1,
+"midx": 0.0,
+"midy": 0.0,
+"moduleOnEdge": 0,
+"originalR": 0.001,
+"posInPar": 2,
+"posX": 635.781,
+"posY": 458.18,
+"resistance": 0.001,
+"rightKnode": -1,
+"type": "Edge",
+"voltage": 9.0
+} ],
+"allKnodesBase": [ {
+"neighbors": [ 1 ],
+"posInPar": 0,
+"posX": 672.0,
+"posY": 460.0,
+"type": "Knode"
+}, {
+"neighbors": [ 4 ],
+"posInPar": 1,
+"posX": 600.0,
+"posY": 460.0,
+"type": "Knode"
+}, {
+"neighbors": [ 3 ],
+"posInPar": 2,
+"posX": 745.0,
+"posY": 316.0,
+"type": "Knode"
+}, {
+"neighbors": [  ],
+"posInPar": 3,
+"posX": 734.0,
+"posY": 388.0,
+"type": "Knode"
+}, {
+"neighbors": [  ],
+"posInPar": 4,
+"posX": 672.0,
+"posY": 460.0,
+"type": "Knode"
+} ],
+"allModulesBase": [ {
+"isVertical": false,
+"leftKnode": -1,
+"myEdge": 2,
+"posInPar": 0,
+"posX": 636.0,
+"posY": 460.0,
+"rightKnode": 4,
+"turned": 0,
+"type": "Battery"
+} ],
+"tk_completed": [ false ]
+},
+"AufgListe3": {
+"allEdgesBase": [ {
+"connectedKnodes": [ 0, 1 ],
+"isCable": true,
+"isLockedDirection": false,
+"leftKnode": 0,
+"midx": 0.0,
+"midy": 0.0,
+"moduleOnEdge": -1,
+"originalR": 1e-05,
+"posInPar": 0,
+"posX": 387.172,
+"posY": 268.656,
+"resistance": 1.08e-05,
+"rightKnode": 1,
+"type": "Edge",
+"voltage": 0.0
+}, {
+"connectedKnodes": [ 2, 3 ],
+"isCable": true,
+"isLockedDirection": false,
+"leftKnode": 2,
+"midx": 0.0,
+"midy": 0.0,
+"moduleOnEdge": -1,
+"originalR": 1e-05,
+"posInPar": 1,
+"posX": 881.639,
+"posY": 237.862,
+"resistance": 1.08e-05,
+"rightKnode": 3,
+"type": "Edge",
+"voltage": 0.0
+}, {
+"connectedKnodes": [ 4, 5 ],
+"isCable": true,
+"isLockedDirection": false,
+"leftKnode": 4,
+"midx": 0.0,
+"midy": 0.0,
+"moduleOnEdge": -1,
+"originalR": 1e-05,
+"posInPar": 2,
+"posX": 393.523,
+"posY": 474.378,
+"resistance": 1.08e-05,
+"rightKnode": 5,
+"type": "Edge",
+"voltage": 0.0
+}, {
+"connectedKnodes": [ 6, 7 ],
+"isCable": true,
+"isLockedDirection": false,
+"leftKnode": 6,
+"midx": 0.0,
+"midy": 0.0,
+"moduleOnEdge": -1,
+"originalR": 1e-05,
+"posInPar": 3,
+"posX": 886.042,
+"posY": 415.232,
+"resistance": 1.08e-05,
+"rightKnode": 7,
+"type": "Edge",
+"voltage": 0.0
+}, {
+"connectedKnodes": [ 8, 9 ],
+"isCable": false,
+"isLockedDirection": true,
+"leftKnode": 8,
+"midx": 0.0,
+"midy": 0.0,
+"moduleOnEdge": 0,
+"originalR": 0.001,
+"posInPar": 4,
+"posX": 619.253,
+"posY": 461.154,
+"resistance": 0.001,
+"rightKnode": 9,
+"type": "Edge",
+"voltage": 9.0
+}, {
+"connectedKnodes": [ 10, 11 ],
+"isCable": false,
+"isLockedDirection": false,
+"leftKnode": 10,
+"midx": 0.0,
+"midy": 0.0,
+"moduleOnEdge": 1,
+"originalR": 10.0,
+"posInPar": 5,
+"posX": 565.518,
+"posY": 317.047,
+"resistance": 10.0,
+"rightKnode": 11,
+"type": "Edge",
+"voltage": 0.0
+}, {
+"connectedKnodes": [ 12, 13 ],
+"isCable": false,
+"isLockedDirection": false,
+"leftKnode": 12,
+"midx": 0.0,
+"midy": 0.0,
+"moduleOnEdge": 2,
+"originalR": 10.0,
+"posInPar": 6,
+"posX": 668.103,
+"posY": 319.489,
+"resistance": 10.0,
+"rightKnode": 13,
+"type": "Edge",
+"voltage": 0.0
+}, {
+"connectedKnodes": [ 14, 15 ],
+"isCable": false,
+"isLockedDirection": false,
+"leftKnode": 14,
+"midx": 0.0,
+"midy": 0.0,
+"moduleOnEdge": 3,
+"originalR": 10.0,
+"posInPar": 7,
+"posX": 605.0,
+"posY": 621.0,
+"resistance": 10.0,
+"rightKnode": 15,
+"type": "Edge",
+"voltage": 0.0
+} ],
+"allKnodesBase": [ {
+"neighbors": [ 1 ],
+"posInPar": 0,
+"posX": 387.172,
+"posY": 232.656,
+"type": "Knode"
+}, {
+"neighbors": [  ],
+"posInPar": 1,
+"posX": 387.172,
+"posY": 340.656,
+"type": "Knode"
+}, {
+"neighbors": [ 3 ],
+"posInPar": 2,
+"posX": 881.639,
+"posY": 201.862,
+"type": "Knode"
+}, {
+"neighbors": [  ],
+"posInPar": 3,
+"posX": 881.639,
+"posY": 309.862,
+"type": "Knode"
+}, {
+"neighbors": [ 5 ],
+"posInPar": 4,
+"posX": 393.523,
+"posY": 438.378,
+"type": "Knode"
+}, {
+"neighbors": [  ],
+"posInPar": 5,
+"posX": 393.523,
+"posY": 546.378,
+"type": "Knode"
+}, {
+"neighbors": [ 7 ],
+"posInPar": 6,
+"posX": 886.042,
+"posY": 379.232,
+"type": "Knode"
+}, {
+"neighbors": [  ],
+"posInPar": 7,
+"posX": 886.042,
+"posY": 487.232,
+"type": "Knode"
+}, {
+"neighbors": [ 9 ],
+"posInPar": 8,
+"posX": 583.253,
+"posY": 461.154,
+"type": "Knode"
+}, {
+"neighbors": [  ],
+"posInPar": 9,
+"posX": 655.253,
+"posY": 461.154,
+"type": "Knode"
+}, {
+"neighbors": [ 11 ],
+"posInPar": 10,
+"posX": 529.518,
+"posY": 317.047,
+"type": "Knode"
+}, {
+"neighbors": [  ],
+"posInPar": 11,
+"posX": 601.518,
+"posY": 317.047,
+"type": "Knode"
+}, {
+"neighbors": [ 13 ],
+"posInPar": 12,
+"posX": 632.103,
+"posY": 319.489,
+"type": "Knode"
+}, {
+"neighbors": [  ],
+"posInPar": 13,
+"posX": 704.103,
+"posY": 319.489,
+"type": "Knode"
+}, {
+"neighbors": [ 15 ],
+"posInPar": 14,
+"posX": 569.0,
+"posY": 621.0,
+"type": "Knode"
+}, {
+"neighbors": [  ],
+"posInPar": 15,
+"posX": 641.0,
+"posY": 621.0,
+"type": "Knode"
+} ],
+"allModulesBase": [ {
+"isVertical": false,
+"leftKnode": 8,
+"myEdge": 4,
+"posInPar": 0,
+"posX": 619.253,
+"posY": 461.154,
+"rightKnode": 9,
+"turned": 0,
+"type": "Battery"
+}, {
+"isVertical": false,
+"leftKnode": 10,
+"myEdge": 5,
+"posInPar": 1,
+"posX": 565.518,
+"posY": 317.047,
+"rightKnode": 11,
+"turned": 0,
+"type": "Lamp"
+}, {
+"isVertical": false,
+"leftKnode": 12,
+"myEdge": 6,
+"posInPar": 2,
+"posX": 668.103,
+"posY": 319.489,
+"rightKnode": 13,
+"turned": 0,
+"type": "Lamp"
+}, {
+"isVertical": false,
+"leftKnode": 14,
+"myEdge": 7,
+"posInPar": 3,
+"posX": 605.0,
+"posY": 621.0,
+"rightKnode": 15,
+"turned": 0,
+"type": "Lamp"
+} ],
+"tk_completed": [ false ]
+},
+"levelComplete": false
+}, {
+"AufgabenListe21": {
+"allEdgesBase": [  ],
+"allKnodesBase": [  ],
+"allModulesBase": [  ],
+"tk_completed": [ false ]
+},
+"AufgabenListe22": {
+"allEdgesBase": [  ],
+"allKnodesBase": [  ],
+"allModulesBase": [  ],
+"tk_completed": [ false ]
+},
+"AufgabenListe23": {
+"allEdgesBase": [  ],
+"allKnodesBase": [  ],
+"allModulesBase": [  ],
+"tk_completed": [ false ]
+},
+"AufgabenListe24": {
+"allEdgesBase": [  ],
+"allKnodesBase": [  ],
+"allModulesBase": [  ],
+"tk_completed": [ false ]
+},
+"AufgabenListe25": {
+"allEdgesBase": [  ],
+"allKnodesBase": [  ],
+"allModulesBase": [  ],
+"tk_completed": [ false ]
+},
+"levelComplete": false
+}, {
+"AufgabenListe31": {
+"allEdgesBase": [  ],
+"allKnodesBase": [  ],
+"allModulesBase": [  ],
+"tk_completed": [ false ]
+},
+"AufgabenListe32": {
+"allEdgesBase": [  ],
+"allKnodesBase": [  ],
+"allModulesBase": [  ],
+"tk_completed": [ false, false, false ]
+},
+"AufgabenListe33": {
+"allEdgesBase": [  ],
+"allKnodesBase": [  ],
+"allModulesBase": [  ],
+"tk_completed": [ false ]
+},
+"AufgabenListe34": {
+"allEdgesBase": [  ],
+"allKnodesBase": [  ],
+"allModulesBase": [  ],
+"tk_completed": [ false ]
+},
+"AufgabenListe35": {
+"allEdgesBase": [  ],
+"allKnodesBase": [  ],
+"allModulesBase": [  ],
+"tk_completed": [ false ]
+},
+"levelComplete": false
+}, {
+"AufgabenListe41": {
+"allEdgesBase": [  ],
+"allKnodesBase": [  ],
+"allModulesBase": [  ],
+"tk_completed": [ false ]
+},
+"AufgabenListe42": {
+"allEdgesBase": [  ],
+"allKnodesBase": [  ],
+"allModulesBase": [  ],
+"tk_completed": [ false ]
+},
+"AufgabenListe43": {
+"allEdgesBase": [  ],
+"allKnodesBase": [  ],
+"allModulesBase": [  ],
+"tk_completed": [ false ]
+},
+"AufgabenListe44": {
+"allEdgesBase": [  ],
+"allKnodesBase": [  ],
+"allModulesBase": [  ],
+"tk_completed": [ false ]
+},
+"AufgabenListe45": {
+"allEdgesBase": [  ],
+"allKnodesBase": [  ],
+"allModulesBase": [  ],
+"tk_completed": [ false ]
+},
+"levelComplete": false
+}, {
+"lvlPreviewCompletedArr": [ false, false, false ]
+}, {
+"lvlPreviewCompletedArr": [ false, false, false, false, false ]
+}, {
+"lvlPreviewCompletedArr": [ false, false, false, false, false ]
+}, {
+"lvlPreviewCompletedArr": [ false, false, false, false, false ]
+}, {
+"aufgabenKapitel": [ {
+"completed": false,
+"taskstates": [ false, false, false, false, false, false, false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false, false, false, false, false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false, false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false, false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false, false, false, false, false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false, false, false, false, false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false, false, false, false, false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false ]
+} ],
+"lvlPreviewCompletedArr": [ false, false, false, false, false, false, false, false, false ],
+"lvlPreviewFehlerArr": [ -1, -1, -1, -1, -1, -1, -1, -1, -1 ]
+}, {
+"aufgabenKapitel": [ {
+"completed": false,
+"taskstates": [ false, false, false, false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false, false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false ]
+} ],
+"lvlPreviewCompletedArr": [ false, false, false, false, false, false ],
+"lvlPreviewFehlerArr": [ -1, -1, -1, -1, -1, -1 ]
+}, {
+"aufgabenKapitel": [ {
+"completed": false,
+"taskstates": [ false, false, false, false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false ]
+} ],
+"lvlPreviewCompletedArr": [ false, false, false, false, false, false, false ],
+"lvlPreviewFehlerArr": [ -1, -1, -1, -1, -1, -1, -1 ]
+}, {
+"aufgabenKapitel": [ {
+"completed": false,
+"taskstates": [ false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false, false, false, false ]
+}, {
+"completed": false,
+"taskstates": [ false, false, false, false, false, false ]
+} ],
+"lvlPreviewCompletedArr": [ false, false, false, false, false, false, false ],
+"lvlPreviewFehlerArr": [ -1, -1, -1, -1, -1, -1, -1 ]
+} ]
+chaptersUnlocked = 0
+playername = "Testerix"
+currChaptersIndex = 0
+book = {
+"currentPage": 1,
+"geleseneSeiten": 0
+}
+fehler = {
+"fehlerAufg": 0,
+"fehlerExp": 0
+}
+playtime = 153.077
+progress = 0.0
+firstRoomEntered = "Kapitel1.tscn"
+avatar = {
+"curr_acc": 3,
+"curr_haare": 9,
+"curr_kopf": 4,
+"curr_oben": 5,
+"curr_unten": 4
+}
+versionNr = "1.5.1"
+house = {
+0: false,
+1: false,
+2: false,
+3: false,
+4: false,
+5: false,
+6: false,
+7: false,
+8: false
+}

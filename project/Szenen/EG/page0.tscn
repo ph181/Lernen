@@ -1,0 +1,67 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Szenen/EG/page.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Grafik/Assets/GUI/tippsclose.png" type="Texture" id=2]
+[ext_resource path="res://Szenen/EG/Tips_wozi.gd" type="Script" id=3]
+[ext_resource path="res://Grafik/Assets/GUI/tips.png" type="Texture" id=4]
+
+[sub_resource type="DynamicFontData" id=1]
+font_path = "res://fonts/Terminal-Grotesque-master/Terminal-Grotesque-master/terminal-grotesque.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 18
+font_data = SubResource( 1 )
+
+[node name="page1" instance=ExtResource( 1 )]
+
+[node name="Titel" parent="." index="3"]
+visible = false
+
+[node name="Label" parent="." index="4"]
+visible = false
+
+[node name="AnimatedSprite" parent="." index="5"]
+visible = false
+
+[node name="Bildunterschrift" parent="." index="6"]
+visible = false
+
+[node name="Sprite" parent="." index="7"]
+visible = false
+
+[node name="Tips" type="TextureRect" parent="." index="8"]
+margin_left = 167.108
+margin_top = 155.397
+margin_right = 365.108
+margin_bottom = 459.397
+texture = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Tips" index="0"]
+margin_left = 12.0
+margin_top = 13.0
+margin_right = 191.0
+margin_bottom = 302.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "Erfahre alles über Elektrizität. 
+Bewege die Maus über Bilder für Animationen. 
+Nutze das Lesezeichen und die Seitenecken zum Navigieren."
+autowrap = true
+clip_text = true
+
+[node name="TextureRect" type="TextureRect" parent="Tips" index="1"]
+margin_left = 174.0
+margin_top = 2.0
+margin_right = 195.0
+margin_bottom = 18.0
+mouse_default_cursor_shape = 2
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="gui_input" from="Tips/TextureRect" to="Tips" method="_on_TextureRect_gui_input"]

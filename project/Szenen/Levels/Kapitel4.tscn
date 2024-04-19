@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Szenen/Levels/Kapitel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Szenen/Levels/Kapitel4.gd" type="Script" id=2]
+
+[node name="Kapitel4" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+Level1Class = null
+Level2Class = null
+Level3Class = null
+Level4Class = null
+Level5Class = null
+Level1 = null
+Level2 = null
+Level3 = null
+Level4 = null
+Level5 = null

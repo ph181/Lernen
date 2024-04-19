@@ -1,0 +1,61 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Grafik/Assets/Wohnzimmer/Bilder/2_Battteriereihe.png" type="Texture" id=1]
+[ext_resource path="res://Szenen/EG/page.tscn" type="PackedScene" id=2]
+
+[sub_resource type="AtlasTexture" id=1]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 0, 0, 286, 213 )
+
+[sub_resource type="AtlasTexture" id=2]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 286, 0, 286, 213 )
+
+[sub_resource type="AtlasTexture" id=3]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 572, 0, 286, 213 )
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="page1" instance=ExtResource( 2 )]
+
+[node name="Titel" parent="." index="3"]
+visible = false
+
+[node name="Label" parent="." index="4"]
+margin_left = 35.0
+margin_top = 60.0
+margin_right = 479.0
+margin_bottom = 585.0
+text = "Auch Batterien lassen sich in Reihe schalten. Damit kann eine größere Menge elektrischen Stroms durch den Stromkreis fließen und mehr Lämpchen zum Leuchten gebracht werden.
+Die Messung mit einem Amperemeter wird mit einer Reihenschaltung durchgeführt."
+
+[node name="AnimatedSprite" parent="." index="5"]
+position = Vector2( 178.649, 379.573 )
+frames = SubResource( 4 )
+speed_scale = 0.3
+
+[node name="TextureRect2" parent="AnimatedSprite" index="0"]
+margin_left = -101.0
+margin_top = -81.0
+margin_right = 119.0
+margin_bottom = 90.0
+
+[node name="Bildunterschrift" parent="." index="6"]
+margin_left = 325.0
+margin_top = 311.0
+margin_right = 466.0
+margin_bottom = 476.0
+text = "Bild 11. Mit zwei Batterien in Reihe können die Lämpchen wieder heller leuchten."
+
+[node name="Sprite" parent="." index="7"]
+visible = false

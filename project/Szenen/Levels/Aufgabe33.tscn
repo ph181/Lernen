@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Szenen/Levels/AufgabeBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Szenen/Levels/Aufgabe33.gd" type="Script" id=2]
+
+[node name="Aufgabe33" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="Aufgabe" parent="." index="0"]
+text = "Vergleichen"
+
+[node name="Label" parent="Aufgabe" index="0"]
+margin_bottom = 151.0
+text = "Baue eine Parallel- und eine Reihenschaltung aus je zwei Lampen und einer Batterie. Vergleiche die Helligkeit."

@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Szenen/EG/page.tscn" type="PackedScene" id=1]
+
+[node name="page1" instance=ExtResource( 1 )]
+
+[node name="Titel" parent="." index="3"]
+visible = false
+
+[node name="Label" parent="." index="4"]
+margin_left = 35.0
+margin_top = 60.0
+margin_right = 479.0
+margin_bottom = 585.0
+text = "Wird der elektrische Stromkreis geschlossen, beginnt der Elektrizitätsantrieb wie eine Pumpe die Elektrizität durch den Stromkreis zu pumpen. Die Elektrizität wird solange wieder durch den Stromkreis geschickt, bis die Batterie ihre Antriebsfähigkeit verliert. Umgangssprachlich sagt man auch, die Batterie sei „leer”. Tatsächlich verliert sie aber ihre Fähigkeit, die Elektrizität durch den Stromkreis zu treiben. 
+Merke: Die Elektrizität selbst wird nie verbraucht, sie bleibt immer in gleicher Menge im Stromkreis."
+
+[node name="AnimatedSprite" parent="." index="5"]
+visible = false
+
+[node name="Bildunterschrift" parent="." index="6"]
+visible = false
+margin_top = 321.94
+margin_bottom = 408.94
+text = "
+Elektrizität strömt von der Batterie durch die Leiter und den Nutzer  zurück in die Batterie."
+
+[node name="Sprite" parent="." index="7"]
+visible = false

@@ -1,0 +1,59 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Szenen/DG/EdgeLine.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Szenen/DG/Lampe.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Szenen/DG/Battery.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Szenen/Levels/AufgabenListeBase.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Szenen/Levels/Aufgabe1.tscn" type="PackedScene" id=5]
+
+[node name="LvlListe1" instance=ExtResource( 4 )]
+
+[node name="EdgeLine" parent="Table/Edges" index="0" instance=ExtResource( 1 )]
+position = Vector2( 516.038, 336.414 )
+
+[node name="EdgeLine2" parent="Table/Edges" index="1" instance=ExtResource( 1 )]
+position = Vector2( 741.329, 336.414 )
+
+[node name="Lampe" parent="Table/Modules/YSort" index="0" instance=ExtResource( 2 )]
+position = Vector2( 626.248, 352.245 )
+
+[node name="Battery" parent="Table/Modules/YSort" index="1" instance=ExtResource( 3 )]
+position = Vector2( 627.161, 237.469 )
+
+[node name="TipsTable" parent="Table" index="6"]
+visible = true
+
+[node name="Label" parent="Table/TipsTable/BG/Sprite3" index="0"]
+anchor_top = 0.0389614
+
+[node name="Label" parent="Table/TipsTable/BG/Sprite5" index="0"]
+anchor_left = -0.00375896
+
+[node name="AnimatedSprite" parent="Table/TipsTable/vid/vid1" index="2"]
+frame = 3
+
+[node name="AnimatedSprite" parent="Table/TipsTable/vid/vid2" index="2"]
+frame = 0
+
+[node name="AnimatedSprite" parent="Table/TipsTable/vid/vid3" index="2"]
+frame = 11
+
+[node name="AnimatedSprite" parent="Table/TipsTable/vid/vid4" index="2"]
+frame = 1
+
+[node name="AnimatedSprite" parent="Table/TipsTable/vid/vid5" index="2"]
+frame = 2
+
+[node name="AnimatedSprite" parent="Table/TipsTable/vid/vid6" index="2"]
+frame = 9
+
+[node name="Control" parent="AufgabenFrame" index="2"]
+margin_left = 240.441
+margin_top = 40.053
+margin_right = 264.441
+margin_bottom = 64.053
+
+[node name="Aufgabe1" parent="AufgabenFrame/ScrollContainer/Control" index="0" instance=ExtResource( 5 )]
+margin_top = 0.0
+margin_right = 211.0
+margin_bottom = 65.0

@@ -1,0 +1,1794 @@
+Godot Engine v3.2.1.stable.official - https://godotengine.org
+Using GLES2 video driver
+OpenGL debugging not supported!
+OpenGL ES 2.0 Renderer: Intel HD Graphics 4000 OpenGL Engine
+CoreAudio: detected 2 channels
+CoreAudio: audio buffer frames: 512 calculated latency: 11ms
+ 
+Registered camera FaceTime HD-Kamera (integriert) with id 1 position 0 at index 0
+CORE API HASH: 10822102301860774635
+EDITOR API HASH: 14982495073158502407
+Loading resource: res://default_env.tres
+Loading resource: res://Myglobals.gd
+Loading resource: res://Szenen/Modul.tscn
+Loading resource: res://Grafik/Assets/Dachboden/Module/module.png
+Loading resource: res://Grafik/Assets/Dachboden/Module/knodeiconframeleft.png
+Loading resource: res://Modul.gd
+Loading resource: res://Szenen/EdgeLine.tscn
+Loading resource: res://Edge.gd
+Loading resource: res://Szenen/Knode.tscn
+Loading resource: res://knodeSpr.png
+Loading resource: res://Knode.gd
+Loading resource: res://Grafik/Assets/Dachboden/Module/cableiconframe.png
+Loading resource: res://InfoSprite.gd
+Loading resource: res://Grafik/Assets/Dachboden/Module/knodeiconframeright.png
+Loading resource: res://Grafik/Assets/Dachboden/Module/knodeiconframe.png
+Loading resource: res://Szenen/Lampe.tscn
+Loading resource: res://Lampe.gd
+Loading resource: res://Grafik/Assets/Dachboden/Module/light2.png
+Loading resource: res://light2.png
+Loading resource: res://Szenen/Battery.tscn
+Loading resource: res://Battery.gd
+Loading resource: res://LevelView.tscn
+Loading resource: res://LevelSum.tscn
+Loading resource: res://Grafik/Assets/GUI/particle.png
+Loading resource: res://LvlIndex.gd
+Loading resource: res://Grafik/Assets/Theme/Ticketing.ttf
+Loading resource: res://LevelSum.gd
+Loading resource: res://LevelView.gd
+Loading resource: res://Szenen/MainMenuBtn.gd
+Loading resource: res://empty_frame.png
+Loading resource: res://Grafik/Assets/Dachboden/roof_animation.png
+Loading resource: res://Grafik/Assets/GUI/lvl_view.png
+Loading resource: res://ArrowLeftRight.gd
+Loading resource: res://Szenen/Game.gd
+Loading resource: res://GlobalScenes.gd
+Loading resource: res://WoZi.gd
+Loading resource: res://Kapitel.gd
+Loading resource: res://Szenen/MainMenu.tscn
+Loading resource: res://Grafik/Assets/GUI/MainMenu.png
+Loading resource: res://Grafik/Assets/Kinderzimmer/menubg.png
+Loading resource: res://Szenen/MainMenu.gd
+Loading resource: res://Grafik/Avatar.tscn
+Loading resource: res://Grafik/Avatar.gd
+Loading resource: res://Grafik/alleSprites.gd
+Loading resource: res://Grafik/Avatar/acc1.png
+Loading resource: res://Grafik/Avatar/acc2.png
+Loading resource: res://Grafik/Avatar/acc3.png
+Loading resource: res://Grafik/Avatar/acc4.png
+Loading resource: res://Grafik/Avatar/k1.png
+Loading resource: res://Grafik/Avatar/k2.png
+Loading resource: res://Grafik/Avatar/k3.png
+Loading resource: res://Grafik/Avatar/k4.png
+Loading resource: res://Grafik/Avatar/k5.png
+Loading resource: res://Grafik/Avatar/k6.png
+Loading resource: res://Grafik/Avatar/h1.png
+Loading resource: res://Grafik/Avatar/h2.png
+Loading resource: res://Grafik/Avatar/h3.png
+Loading resource: res://Grafik/Avatar/h4.png
+Loading resource: res://Grafik/Avatar/h5.png
+Loading resource: res://Grafik/Avatar/h6.png
+Loading resource: res://Grafik/Avatar/a1.png
+Loading resource: res://Grafik/Avatar/a2.png
+Loading resource: res://Grafik/Avatar/a3.png
+Loading resource: res://Grafik/Avatar/a4.png
+Loading resource: res://Grafik/Avatar/a5.png
+Loading resource: res://Grafik/Avatar/a6.png
+Loading resource: res://Grafik/Avatar/o1.png
+Loading resource: res://Grafik/Avatar/o2.png
+Loading resource: res://Grafik/Avatar/o3.png
+Loading resource: res://Grafik/Avatar/o4.png
+Loading resource: res://Grafik/Avatar/o5.png
+Loading resource: res://Grafik/Avatar/o6.png
+Loading resource: res://Grafik/Avatar/u1.png
+Loading resource: res://Grafik/Avatar/u2.png
+Loading resource: res://Grafik/Avatar/u3.png
+Loading resource: res://Grafik/Avatar/u4.png
+Loading resource: res://Grafik/Avatar/u5.png
+Loading resource: res://Grafik/Avatar/u6.png
+Loading resource: res://HouseScene.tscn
+Loading resource: res://HouseScene.gd
+Loading resource: res://eg_room2.png
+Loading resource: res://dg_room.png
+Loading resource: res://ug_room.png
+Loading resource: res://eg_room.png
+Loading resource: res://Grafik/Assets/GUI/MenuDown.png
+Loading resource: res://Grafik/Assets/GUI/smallArrow_mouseOver.png
+Loading resource: res://Grafik/Assets/GUI/smallArrow_active.png
+Loading resource: res://Grafik/Assets/GUI/smallArrow_deactive.png
+Loading resource: res://Arrows.gd
+Loading resource: res://gbtest.png
+Loading resource: res://WoZi.tscn
+Loading resource: res://Grafik/Assets/Wohnzimmer/living_r.png
+Loading resource: res://Blanco.gd
+Loading resource: res://Grafik/Assets/Wohnzimmer/lit.png
+Loading resource: res://Grafik/Assets/Wohnzimmer/pfeil_l.png
+Loading resource: res://Szenen/Levels/Kapitel1.tscn
+Loading resource: res://Kapitel.tscn
+Loading resource: res://Grafik/Assets/GUI/nur_geschafft.png
+Loading resource: res://Kapitel1.gd
+Loading resource: res://AufgListe1.tscn
+Loading resource: res://AufgabenListeBase.tscn
+Loading resource: res://Grafik/Assets/GUI/MenuArrow.png
+Loading resource: res://ElectricSolver.gd
+Loading resource: res://Uebersicht.gd
+Loading resource: res://AufgabenFrame.gd
+Loading resource: res://Grafik/Assets/GUI/Menu.png
+Loading resource: res://EdgesLogic.gd
+Loading resource: res://KnodesLogic.gd
+Loading resource: res://Grafik/Assets/Theme/new_dynamicfont.tres
+Loading resource: res://TableszeneSkript.gd
+Loading resource: res://Szenen/MenuDown.tscn
+Loading resource: res://Grafik/Assets/GUI/cableIcon.png
+Loading resource: res://Grafik/Assets/GUI/Modul_frame.png
+Loading resource: res://Grafik/Assets/GUI/arrowUpDown.png
+Loading resource: res://MenuItemsBar.gd
+Loading resource: res://ModulLogik.gd
+Loading resource: res://Szenen/Levels/Aufgabe1.tscn
+Loading resource: res://AufgabeBase.tscn
+Loading resource: res://AufgabeBase.gd
+Loading resource: res://Aufgabe1.gd
+Loading resource: res://AufgListe2.tscn
+Loading resource: res://Szenen/Levels/Aufgabe2.tscn
+Loading resource: res://Aufgabe2.gd
+Loading resource: res://AufgListe3.tscn
+Loading resource: res://Szenen/Levels/Aufgabe3.tscn
+Loading resource: res://Aufgabe3.gd
+Loading resource: res://Saver.gd
+Loading resource: res://Szenen/Ampermeter.tscn
+Loading resource: res://Ampermeter.gd
+Loading resource: res://SaveData.gd
+Loading resource: res://SaveNames.gd
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+Loaded builtin certs
+Loading resource: res://Szenen/Game.tscn
+Loading resource: res://EscMenu.tscn
+Loading resource: res://Grafik/Assets/GUI/EscMenu.png
+Loading resource: res://EscapeMenu.gd
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At:Loading resource: res://Szenen/MainMenu.tscn
+Loading resource: res://EscMenu.tscn
+ork in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+**WARNING**: Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+   At: scene/main/scene_tree.cpp:1236:_update_root_rect() - Font oversampling does not work in 'Viewport' stretch mode, only '2D'.
+c False
+[Control:1595]
+c False
+[Control:1600]
+c False
+[Control:1605]
+**ERROR**: Condition "_first != __null" is true.
+   At: ./core/self_list.h:112:~List() - Condition "_first != __null" is true.
+**ERROR**: Condition "_first != __null" is true.
+   At: ./core/self_list.h:112:~List() - Condition "_first != __null" is true.
+**ERROR**: Condition "_first != __null" is true.
+   At: ./core/self_list.h:112:~List() - Condition "_first != __null" is true.
+**WARNING**: ObjectDB Instances still exist!
+   At: core/object.cpp:2071:cleanup() - ObjectDB Instances still exist!
+Leaked instance: Node2D:2035 - Node name: Mid
+Leaked instance: WeakRef:2093
+Leaked instance: Node2D:2121 - Node name: AufgabenFrame
+Leaked instance: Control:1841 - Node name: CutGUI
+Leaked instance: Button:2120 - Node name: reset
+Leaked instance: Label:2123 - Node name: Titel
+Leaked instance: Node2D:2341 - Node name: index
+Leaked instance: Node2D:2095 - Node name: Table
+Leaked instance: Line2D:2130 - Node name: Line2D
+Leaked instance: Label:2181 - Node name: power
+Leaked instance: StreamTexture:1364 - Resource name:  Path: res://Grafik/Avatar/u6.png
+Leaked instance: Control:2178 - Node name: CutGUI
+Leaked instance: StreamTexture:1280 - Resource name:  Path: res://Grafik/Avatar/k2.png
+Leaked instance: Sprite:2101 - Node name: MenuDown
+Leaked instance: AnimationPlayer:2115 - Node name: AnimationPlayer
+Leaked instance: VBoxContainer:2129 - Node name: Control
+Leaked instance: Animation:1420 - Resource name: oeffnen Path: res://WoZi.tscn::2
+Leaked instance: GDScript:1227 - Resource name:  Path: res://LevelView.gd
+Leaked instance: Sprite:1477 - Node name: unten
+Leaked instance: ConvexPolygonShape2D:1506 - Resource name:  Path: 
+Leaked instance: ConvexPolygonShape2D:1535 - Resource name:  Path: 
+Leaked instance: Area2D:2087 - Node name: Area2D
+Leaked instance: Sprite:2122 - Node name: Bg
+Leaked instance: DynamicFontAtSize:1224
+Leaked instance: Node2D:1561 - Node name: Arrows
+Leaked instance: Control:1741 - Node name: close
+Leaked instance: Control:1493 - Node name: zurueck
+Leaked instance: Control:1569 - Node name: ControlLeft
+Leaked instance: GDScript:1684 - Resource name:  Path: res://Aufgabe3.gd
+Leaked instance: Curve2D:2144 - Resource name:  Path: 
+Leaked instance: Sprite:1572 - Node name: lit
+Leaked instance: StreamTexture:1286 - Resource name:  Path: res://Grafik/Avatar/k4.png
+Leaked instance: StreamTexture:1217 - Resource name:  Path: res://Grafik/Assets/GUI/particle.png
+Leaked instance: GDScriptNativeClass:718
+Leaked instance: Sprite:1564 - Node name: mouseover
+Leaked instance: Control:2239 - Node name: CutGUI
+Leaked instance: Sprite:1735 - Node name: About
+Leaked instance: Curve2D:2264 - Resource name:  Path: 
+Leaked instance: DynamicFont:1404 - Resource name:  Path: res://HouseScene.tscn::4
+Leaked instance: Control:1464 - Node name: about
+Leaked instance: ConvexPolygonShape2D:1522 - Resource name:  Path: 
+Leaked instance: Sprite:1563 - Node name: active
+Leaked instance: Sprite:2256 - Node name: Sprite
+Leaked instance: Sprite:1566 - Node name: ArrowLeft
+Leaked instance: Sprite:2032 - Node name: Sprite
+Leaked instance: Label:2140 - Node name: power
+Leaked instance: Sprite:1551 - Node name: Title
+Leaked instance: Animation:1240 - Resource name: zoomIn Path: res://LevelView.tscn::2
+Leaked instance: GDScript:1667 - Resource name:  Path: res://AufgabeBase.gd
+Leaked instance: Node2D:1723 - Node name: Button2
+Leaked instance: Curve2D:2011 - Resource name:  Path: 
+Leaked instance: ScrollContainer:2126 - Node name: ScrollContainer
+Leaked instance: CollisionShape2D:2373 - Node name: CollisionShape2D
+Leaked instance: Area2D:2380 - Node name: Area2D
+Leaked instance: CollisionPolygon2D:1509 - Node name: CollisionPolygon2D
+Leaked instance: Node2D:1581 - Node name: Button
+Leaked instance: Animation:1661 - Resource name: aufgSlideOut Path: res://AufgabenListeBase.tscn::1
+Leaked instance: Area2D:2063 - Node name: Area2D
+Leaked instance: YSort:2119 - Node name: YSort
+Leaked instance: Control:2125 - Node name: Control
+Leaked instance: StreamTexture:1325 - Resource name:  Path: res://Grafik/Avatar/a5.png
+Leaked instance: Control:1449 - Node name: newGame
+Leaked instance: ColorRect:1729 - Node name: mouseover
+Leaked instance: CollisionShape2D:2088 - Node name: CollisionShape2D
+Leaked instance: Label:2091 - Node name: Label
+Leaked instance: Sprite:2146 - Node name: Sprite
+Leaked instance: StreamTexture:1265 - Resource name:  Path: res://Grafik/Avatar/acc1.png
+Leaked instance: GDScriptNativeClass:745
+Leaked instance: Node2D:1446 - Node name: Button
+Leaked instance: ColorRect:1467 - Node name: mouseover
+Leaked instance: RichTextLabel:1575 - Node name: Links
+Leaked instance: Sprite:1958 - Node name: MenuDown
+Leaked instance: Sprite:2014 - Node name: Sprite
+Leaked instance: Node2D:2098 - Node name: Knodes
+Leaked instance: Node2D:2259 - Node name: Mid
+Leaked instance: Label:2377 - Node name: Nighbors
+Leaked instance: Control:1961 - Node name: newCable
+Leaked instance: Node2D:2017 - Node name: Mid
+Leaked instance: Node2D:2097 - Node name: Edges
+Leaked instance: Label:2367 - Node name: Label
+Leaked instance: Sprite:2374 - Node name: Warning
+Leaked instance: StreamTexture:1388 - Resource name:  Path: res://Grafik/Assets/GUI/smallArrow_mouseOver.png
+Leaked instance: Button:1480 - Node name: augen
+Leaked instance: Node2D:2069 - Node name: @Knode@15
+Leaked instance: Node2D:2149 - Node name: Mid
+Leaked instance: Control:2207 - Node name: CutGUI
+Leaked instance: StreamTexture:1319 - Resource name:  Path: res://Grafik/Avatar/a3.png
+Leaked instance: RichTextLabel:1578 - Node name: Rechts
+Leaked instance: DynamicFont:1259 - Resource name:  Path: res://Szenen/MainMenu.tscn::2
+Leaked instance: Area2D:1538 - Node name: TransistDg
+Leaked instance: Control:1584 - Node name: zurueck
+Leaked instance: Node2D:2205 - Node name: @EdgeLine@29
+Leaked instance: Node2D:2370 - Node name: @Knode@33
+Leaked instance: Sprite:2371 - Node name: SpriteCircle
+Leaked instance: VScrollBar:1593 - Node name: _v_scroll
+Leaked instance: Label:2368 - Node name: Nighbors
+Leaked instance: ConvexPolygonShape2D:1525 - Resource name:  Path: 
+Leaked instance: Label:1590 - Node name: Label
+Leaked instance: Sprite:1587 - Node name: Animaion
+Leaked instance: Label:1717 - Node name: Titel
+Leaked instance: Path2D:4208 - Node name: Path2D
+Leaked instance: Sprite:1496 - Node name: Sprite
+Leaked instance: ColorRect:1596 - Node name: ColorRect
+Leaked instance: Control:2041 - Node name: Aufgabe2
+Leaked instance: Node2D:2288 - Node name: @Knode@20
+Leaked instance: Path2D:2038 - Node name: Path2D
+Leaked instance: GDScript:1372 - Resource name:  Path: res://HouseScene.gd
+Leaked instance: Label:1554 - Node name: InfoLineAufgaben
+Leaked instance: Label:2228 - Node name: power
+Leaked instance: Line2D:2008 - Node name: Line2D
+Leaked instance: Label:2060 - Node name: Nighbors
+Leaked instance: Control:2116 - Node name: Arrow
+Leaked instance: ColorRect:1734 - Node name: mouseover
+Leaked instance: Label:1470 - Node name: Label
+Leaked instance: ColorRect:1724 - Node name: mouseover
+Leaked instance: Node2D:1952 - Node name: Table
+Leaked instance: Control:1971 - Node name: newAmpermeter
+Leaked instance: Button:1977 - Node name: reset
+Leaked instance: Control:1982 - Node name: Control
+Leaked instance: Node2D:1728 - Node name: Button3
+Leaked instance: Label:1732 - Node name: Label
+Leaked instance: CPUParticles2D:1974 - Node name: Particles2D
+Leaked instance: Sprite:1979 - Node name: Bg
+Leaked instance: StreamTexture:1331 - Resource name:  Path: res://Grafik/Avatar/o1.png
+Leaked instance: StreamTexture:1328 - Resource name:  Path: res://Grafik/Avatar/a6.png
+Leaked instance: Label:1722 - Node name: Label
+Leaked instance: Control:1969 - Node name: new Voltometer
+Leaked instance: Node2D:2066 - Node name: index
+Leaked instance: StreamTexture:1391 - Resource name:  Path: res://Grafik/Assets/GUI/smallArrow_active.png
+Leaked instance: Control:1726 - Node name: loadGame
+Leaked instance: Light2D:2234 - Node name: Light2D2
+Leaked instance: Node2D:1471 - Node name: Avatar
+Leaked instance: Sprite:1499 - Node name: Wohnzimmer
+Leaked instance: Control:1736 - Node name: about
+Leaked instance: Control:1963 - Node name: newBattery
+Leaked instance: Node2D:2237 - Node name: @EdgeLine@32
+Leaked instance: Sprite:1740 - Node name: close
+Leaked instance: Sprite:1966 - Node name: Resistor
+Leaked instance: VScrollBar:1985 - Node name: _v_scroll
+Leaked instance: Node2D:2100 - Node name: GUI
+Leaked instance: StreamTexture:1337 - Resource name:  Path: res://Grafik/Avatar/o3.png
+Leaked instance: Node2D:1718 - Node name: Button
+Leaked instance: Sprite:1960 - Node name: Cable
+Leaked instance: Node2D:2082 - Node name: index
+Leaked instance: Label:2242 - Node name: power
+Leaked instance: DynamicFont:1223 - Resource name:  Path: res://LevelSum.tscn::1
+Leaked instance: Label:1742 - Node name: Label
+Leaked instance: Label:2076 - Node name: Nighbors
+Leaked instance: Area2D:1528 - Node name: Down
+Leaked instance: Label:1557 - Node name: InfoLineUmfragen
+Leaked instance: Area2D:2055 - Node name: Area2D
+Leaked instance: Label:2084 - Node name: Nighbors
+Leaked instance: Node2D:1714 - Node name: MainMenu
+Leaked instance: Node2D:2074 - Node name: index
+Leaked instance: WeakRef:2386
+Leaked instance: StreamTexture:1229 - Resource name:  Path: res://empty_frame.png
+Leaked instance: YSort:1976 - Node name: YSort
+Leaked instance: Label:2092 - Node name: Nighbors
+Leaked instance: Sprite:1720 - Node name: NeuesSpiel
+Leaked instance: Node2D:1955 - Node name: Knodes
+Leaked instance: Sprite:1968 - Node name: Voltometer
+Leaked instance: Node2D:2053 - Node name: @Knode@13
+Leaked instance: Node2D:2383 - Node name: index
+Leaked instance: Sprite:1443 - Node name: Bg
+Leaked instance: ColorRect:1953 - Node name: tisch
+Leaked instance: Node2D:2006 - Node name: Mid
+Leaked instance: StreamTexture:1382 - Resource name:  Path: res://eg_room.png
+Leaked instance: StreamTexture:1334 - Resource name:  Path: res://Grafik/Avatar/o2.png
+Leaked instance: CollisionPolygon2D:1502 - Node name: CollisionPolygon2D
+Leaked instance: HScrollBar:1984 - Node name: _h_scroll
+Leaked instance: Sprite:2003 - Node name: Sprite
+Leaked instance: Node2D:2061 - Node name: @Knode@14
+Leaked instance: ColorRect:1719 - Node name: mouseover
+Leaked instance: Control:1721 - Node name: newGame
+Leaked instance: ConvexPolygonShape2D:1503 - Resource name:  Path: 
+Leaked instance: ConvexPolygonShape2D:1531 - Resource name:  Path: 
+Leaked instance: Sprite:1725 - Node name: SpielLaden
+Leaked instance: Node2D:2090 - Node name: index
+Leaked instance: StreamTexture:1385 - Resource name:  Path: res://Grafik/Assets/GUI/MenuDown.png
+Leaked instance: GDScript:1220 - Resource name:  Path: res://LvlIndex.gd
+Leaked instance: Label:1737 - Node name: Label
+Leaked instance: Label:2068 - Node name: Nighbors
+Leaked instance: Label:2210 - Node name: power
+Leaked instance: Line2D:2243 - Node name: Line2D
+Leaked instance: GDScriptNativeClass:710
+Leaked instance: Sprite:1473 - Node name: kopf
+Leaked instance: Sprite:1474 - Node name: haare
+Leaked instance: Sprite:1715 - Node name: Bg
+Leaked instance: Path2D:2009 - Node name: Path2D
+Leaked instance: DynamicFont:1423 - Resource name:  Path: res://WoZi.tscn::5
+Leaked instance: StreamTexture:1277 - Resource name:  Path: res://Grafik/Avatar/k1.png
+Leaked instance: GDScript:1192 - Resource name:  Path: res://InfoSprite.gd
+Leaked instance: Sprite:1993 - Node name: Sprite
+Leaked instance: Node2D:2050 - Node name: index
+Leaked instance: Control:2108 - Node name: newLamp
+Leaked instance: SceneState:1191
+Leaked instance: GDScriptNativeClass:711
+Leaked instance: Control:2226 - Node name: DeleteGUI
+Leaked instance: Area2D:2071 - Node name: Area2D
+Leaked instance: Node2D:2077 - Node name: @Knode@17
+Leaked instance: Control:2106 - Node name: newBattery
+Leaked instance: Node2D:2139 - Node name: Mid
+Leaked instance: StreamTexture:1271 - Resource name:  Path: res://Grafik/Avatar/acc3.png
+Leaked instance: Control:1731 - Node name: kapitel
+Leaked instance: Line2D:2229 - Node name: Line2D
+Leaked instance: Sprite:2124 - Node name: Arrow
+Leaked instance: Node2D:1738 - Node name: Button5
+Leaked instance: Line2D:1987 - Node name: Line2D
+Leaked instance: Sprite:2340 - Node name: Warning
+Leaked instance: ConvexPolygonShape2D:1548 - Resource name:  Path: 
+Leaked instance: Sprite:1716 - Node name: Menu
+Leaked instance: Label:1990 - Node name: Label
+Leaked instance: Node2D:2085 - Node name: @Knode@18
+Leaked instance: VScrollBar:2128 - Node name: _v_scroll
+Leaked instance: Sprite:1463 - Node name: About
+Leaked instance: Control:2033 - Node name: CutGUI
+Leaked instance: Label:2351 - Node name: Nighbors
+Leaked instance: StreamTexture:1358 - Resource name:  Path: res://Grafik/Avatar/u4.png
+Leaked instance: Control:1842 - Node name: DeleteGUI
+Leaked instance: Control:2005 - Node name: DeleteGUI
+Leaked instance: Control:2189 - Node name: TurnCCW
+Leaked instance: Control:2217 - Node name: CutOut
+Leaked instance: Sprite:2354 - Node name: SpriteCircle
+Leaked instance: GDScript:1202 - Resource name:  Path: res://Lampe.gd
+Leaked instance: Path2D:1999 - Node name: Path2D
+Leaked instance: Area2D:2079 - Node name: Area2D
+Leaked instance: Label:2334 - Node name: Label
+Leaked instance: DynamicFontData:1221 - Resource name:  Path: res://Grafik/Assets/Theme/Ticketing.ttf
+Leaked instance: Line2D:1845 - Node name: Line2D
+Leaked instance: Node2D:1871 - Node name: EdgeLine
+Leaked instance: Node2D:2002 - Node name: EdgeLine2
+Leaked instance: Sprite:2027 - Node name: TurnLSprite
+Leaked instance: Label:2052 - Node name: Nighbors
+Leaked instance: Curve2D:2214 - Resource name:  Path: 
+Leaked instance: Sprite:2357 - Node name: Warning
+Leaked instance: Sprite:2030 - Node name: Sprite
+Leaked instance: CheckBox:2269 - Node name: Aufgabe
+Leaked instance: Sprite:2276 - Node name: Warning
+Leaked instance: Label:2327 - Node name: Nighbors
+Leaked instance: ConvexPolygonShape2D:1505 - Resource name:  Path: 
+Leaked instance: Sprite:2186 - Node name: InfoSprite
+Leaked instance: Sprite:2297 - Node name: SpriteCircle
+Leaked instance: Sprite:2103 - Node name: Cable
+Leaked instance: Area2D:2306 - Node name: Area2D
+Leaked instance: Control:2026 - Node name: TurnCCW
+Leaked instance: Label:2384 - Node name: Label
+Leaked instance: Control:2024 - Node name: Delete
+Leaked instance: Control:2134 - Node name: Uebersicht
+Leaked instance: Sprite:2190 - Node name: TurnLSprite
+Leaked instance: Sprite:2156 - Node name: Sprite
+Leaked instance: StreamTexture:1352 - Resource name:  Path: res://Grafik/Avatar/u2.png
+Leaked instance: Sprite:2113 - Node name: Ampermeter
+Leaked instance: Sprite:2193 - Node name: Sprite
+Leaked instance: Sprite:2029 - Node name: TurnRSprite
+Leaked instance: Sprite:2109 - Node name: Resistor
+Leaked instance: StreamTexture:1292 - Resource name:  Path: res://Grafik/Avatar/k6.png
+Leaked instance: Area2D:1518 - Node name: AreaKiZi
+Leaked instance: Sprite:2107 - Node name: Lamp
+Leaked instance: StreamTexture:1355 - Resource name:  Path: res://Grafik/Avatar/u3.png
+Leaked instance: Animation:1421 - Resource name: vor Path: res://WoZi.tscn::3
+Leaked instance: Control:2104 - Node name: newCable
+Leaked instance: StreamTexture:1379 - Resource name:  Path: res://ug_room.png
+Leaked instance: DynamicFont:1368 - Resource name:  Path: res://Grafik/Avatar.tscn::2
+Leaked instance: Area2D:1508 - Node name: TransistBook
+Leaked instance: Sprite:1516 - Node name: Kinderzimmer2
+Leaked instance: Label:1558 - Node name: CounterUmfragen
+Leaked instance: Label:2160 - Node name: power
+Leaked instance: StreamTexture:1361 - Resource name:  Path: res://Grafik/Avatar/u5.png
+Leaked instance: Sprite:2273 - Node name: SpriteCircle
+Leaked instance: CollisionShape2D:2331 - Node name: CollisionShape2D
+Leaked instance: GDScript:1677 - Resource name:  Path: res://Aufgabe2.gd
+Leaked instance: Sprite:2023 - Node name: InfoSprite
+Leaked instance: Curve2D:2246 - Resource name:  Path: 
+Leaked instance: Curve2D:1880 - Resource name:  Path: 
+Leaked instance: Path2D:2020 - Node name: Path2D
+Leaked instance: Sprite:2300 - Node name: Warning
+Leaked instance: DynamicFont:1662 - Resource name:  Path: res://AufgabenListeBase.tscn::2
+Leaked instance: Line2D:2044 - Node name: Line2D
+Leaked instance: Node2D:2223 - Node name: EdgeLine
+Leaked instance: Node2D:2304 - Node name: @Knode@22
+Leaked instance: ConvexPolygonShape2D:1521 - Resource name:  Path: 
+Leaked instance: Node2D:2058 - Node name: index
+Leaked instance: Path2D:2162 - Node name: Path2D
+Leaked instance: DynamicFont:1258 - Resource name:  Path: res://Szenen/MainMenu.tscn::1
+Leaked instance: Label:2303 - Node name: Nighbors
+Leaked instance: Area2D:2330 - Node name: Area2D
+Leaked instance: Node2D:1500 - Node name: Signals
+Leaked instance: Control:2137 - Node name: CutGUI
+Leaked instance: Control:2110 - Node name: newResistor
+Leaked instance: AnimationPlayer:2131 - Node name: AnimationPlayer
+Leaked instance: Node2D:2165 - Node name: EdgeLine4
+Leaked instance: StreamTexture:1376 - Resource name:  Path: res://dg_room.png
+Leaked instance: Sprite:1612 - Node name: zurueck
+Leaked instance: Label:2059 - Node name: Label
+Leaked instance: CollisionShape2D:2064 - Node name: CollisionShape2D
+Leaked instance: Control:2249 - Node name: CutOut
+Leaked instance: ConvexPolygonShape2D:1513 - Resource name:  Path: 
+Leaked instance: Label:1609 - Node name: DescriptionTitle
+Leaked instance: CollisionShape2D:2283 - Node name: CollisionShape2D
+Leaked instance: Node2D:2349 - Node name: index
+Leaked instance: Sprite:1597 - Node name: Sprite
+Leaked instance: AnimationPlayer:1972 - Node name: AnimationPlayer
+Leaked instance: Label:2270 - Node name: Label
+Leaked instance: ConvexPolygonShape2D:1512 - Resource name:  Path: 
+Leaked instance: Node2D:1839 - Node name: EdgeLine
+Leaked instance: Curve2D:1848 - Resource name:  Path: 
+Leaked instance: Label:1980 - Node name: Titel
+Leaked instance: Path2D:2183 - Node name: Path2D
+Leaked instance: GDScript:1263 - Resource name:  Path: res://Grafik/Avatar.gd
+Leaked instance: Label:1603 - Node name: LvlIndex
+Leaked instance: CollisionShape2D:2291 - Node name: CollisionShape2D
+Leaked instance: Label:2343 - Node name: Nighbors
+Leaked instance: ColorRect:1606 - Node name: ColorRect
+Leaked instance: Sprite:2065 - Node name: Warning
+Leaked instance: Sprite:2073 - Node name: Warning
+Leaked instance: Area2D:2346 - Node name: Area2D
+Leaked instance: CollisionShape2D:2080 - Node name: CollisionShape2D
+Leaked instance: Node2D:2175 - Node name: Battery
+Leaked instance: Control:2220 - Node name: TurnCW
+Leaked instance: ScrollContainer:1591 - Node name: ScrollContainer2
+Leaked instance: Node2D:1514 - Node name: KinderZimmer
+Leaked instance: Sprite:2086 - Node name: SpriteCircle
+Leaked instance: Control:1600 - Node name: LevelSum2
+Leaked instance: Node2D:2204 - Node name: Lampe
+Leaked instance: Node2D:2328 - Node name: @Knode@25
+Leaked instance: HBoxContainer:1594 - Node name: HBoxContainer
+Leaked instance: Node2D:1957 - Node name: GUI
+Leaked instance: Control:4203 - Node name: CutGUI
+Leaked instance: GDScript:1636 - Resource name:  Path: res://AufgabenFrame.gd
+Leaked instance: Sprite:1959 - Node name: ArrowUpDown
+Leaked instance: Sprite:2070 - Node name: SpriteCircle
+Leaked instance: Control:2196 - Node name: CutGUI
+Leaked instance: Node2D:2333 - Node name: index
+Leaked instance: Node2D:1951 - Node name: AufgListe2
+Leaked instance: Node2D:1954 - Node name: Edges
+Leaked instance: Control:1965 - Node name: newLamp
+Leaked instance: Sprite:1962 - Node name: Battery
+Leaked instance: AnimationPlayer:1573 - Node name: AnimationPlayer
+Leaked instance: Node2D:1975 - Node name: Modules
+Leaked instance: Sprite:2238 - Node name: Sprite
+Leaked instance: Node2D:2280 - Node name: @Knode@19
+Leaked instance: Node2D:1978 - Node name: AufgabenFrame
+Leaked instance: Sprite:2062 - Node name: SpriteCircle
+Leaked instance: Light2D:2267 - Node name: Light2D3
+Leaked instance: VScrollBar:1576 - Node name: @@2
+Leaked instance: Node:1956 - Node name: ElectricSolver
+Leaked instance: HScrollBar:2127 - Node name: _h_scroll
+Leaked instance: Label:2199 - Node name: power
+Leaked instance: Label:2294 - Node name: Label
+Leaked instance: Label:1585 - Node name: Label
+Leaked instance: Control:2252 - Node name: TurnCW
+Leaked instance: StreamTexture:1340 - Resource name:  Path: res://Grafik/Avatar/o4.png
+Leaked instance: StreamTexture:1298 - Resource name:  Path: res://Grafik/Avatar/h2.png
+Leaked instance: ConvexPolygonShape2D:1510 - Resource name:  Path: 
+Leaked instance: Node2D:1570 - Node name: WoZi
+Leaked instance: Sprite:1981 - Node name: Arrow
+Leaked instance: Label:2133 - Node name: Label
+Leaked instance: StreamTexture:1203 - Resource name:  Path: res://Grafik/Assets/Dachboden/Module/light2.png
+Leaked instance: Sprite:1567 - Node name: active
+Leaked instance: Node2D:2241 - Node name: Mid
+Leaked instance: StreamTexture:1206 - Resource name:  Path: res://light2.png
+Leaked instance: AnimationPlayer:1588 - Node name: AnimationPlayer
+Leaked instance: Sprite:2049 - Node name: Warning
+Leaked instance: StreamTexture:1196 - Resource name:  Path: res://Grafik/Assets/Dachboden/Module/knodeiconframe.png
+Leaked instance: CollisionShape2D:2307 - Node name: CollisionShape2D
+Leaked instance: StreamTexture:1283 - Resource name:  Path: res://Grafik/Avatar/k3.png
+Leaked instance: Label:2083 - Node name: Label
+Leaked instance: Node2D:2180 - Node name: Mid
+Leaked instance: Label:4206 - Node name: power
+Leaked instance: Node2D:2159 - Node name: Mid
+Leaked instance: Label:2342 - Node name: Label
+Leaked instance: StreamTexture:1373 - Resource name:  Path: res://eg_room2.png
+Leaked instance: Node2D:1996 - Node name: Mid
+Leaked instance: VScrollBar:1579 - Node name: @@3
+Leaked instance: StreamTexture:1289 - Resource name:  Path: res://Grafik/Avatar/k5.png
+Leaked instance: ConvexPolygonShape2D:1511 - Resource name:  Path: 
+Leaked instance: Sprite:1515 - Node name: Kinderzimmer
+Leaked instance: ColorRect:1582 - Node name: mouseover
+Leaked instance: Sprite:2345 - Node name: SpriteCircle
+Leaked instance: CollisionShape2D:2056 - Node name: CollisionShape2D
+Leaked instance: Label:2067 - Node name: Label
+Leaked instance: Node2D:2309 - Node name: index
+Leaked instance: Sprite:2348 - Node name: Warning
+Leaked instance: CollisionPolygon2D:1519 - Node name: CollisionPolygon2D
+Leaked instance: Sprite:2089 - Node name: Warning
+Leaked instance: StreamTexture:1295 - Resource name:  Path: res://Grafik/Avatar/h1.png
+Leaked instance: CircleShape2D:1180 - Resource name:  Path: res://Szenen/Knode.tscn::1
+Leaked instance: ConvexPolygonShape2D:1520 - Resource name:  Path: 
+Leaked instance: ConvexPolygonShape2D:1533 - Resource name:  Path: 
+Leaked instance: Sprite:2284 - Node name: Warning
+Leaked instance: Node2D:2344 - Node name: @Knode@28
+Leaked instance: StreamTexture:1301 - Resource name:  Path: res://Grafik/Avatar/h3.png
+Leaked instance: GDScript:1655 - Resource name:  Path: res://MenuItemsBar.gd
+Leaked instance: Label:2036 - Node name: power
+Leaked instance: StreamTexture:1166 - Resource name:  Path: res://Grafik/Assets/Dachboden/Module/module.png
+Leaked instance: Sprite:1448 - Node name: NeuesSpiel
+Leaked instance: Sprite:1478 - Node name: acc
+Leaked instance: ConvexPolygonShape2D:1507 - Resource name:  Path: 
+Leaked instance: Node2D:2013 - Node name: @EdgeLine@16
+Leaked instance: Node2D:2293 - Node name: index
+Leaked instance: StreamTexture:1409 - Resource name:  Path: res://Grafik/Assets/Wohnzimmer/living_r.png
+Leaked instance: Control:2015 - Node name: CutGUI
+Leaked instance: Node2D:2209 - Node name: Mid
+Leaked instance: Label:2260 - Node name: power
+Leaked instance: Node2D:2353 - Node name: @Knode@30
+Leaked instance: Label:2018 - Node name: power
+Leaked instance: Control:2028 - Node name: TurnCW
+Leaked instance: Sprite:2289 - Node name: SpriteCircle
+Leaked instance: CollisionShape2D:2356 - Node name: CollisionShape2D
+Leaked instance: StreamTexture:1346 - Resource name:  Path: res://Grafik/Avatar/o6.png
+Leaked instance: Node2D:1451 - Node name: Button2
+Leaked instance: Path2D:2201 - Node name: Path2D
+Leaked instance: Label:2310 - Node name: Label
+Leaked instance: CollisionShape2D:2339 - Node name: CollisionShape2D
+Leaked instance: Control:2147 - Node name: CutGUI
+Leaked instance: Label:2318 - Node name: Label
+Leaked instance: ColorRect:1491 - Node name: mouseover
+Leaked instance: Area2D:2322 - Node name: Area2D
+Leaked instance: CollisionShape2D:2347 - Node name: CollisionShape2D
+Leaked instance: Label:2007 - Node name: power
+Leaked instance: Node2D:2198 - Node name: Mid
+Leaked instance: Sprite:2206 - Node name: Sprite
+Leaked instance: Node2D:2285 - Node name: index
+Leaked instance: Area2D:2314 - Node name: Area2D
+Leaked instance: Label:2350 - Node name: Label
+Leaked instance: ColorRect:1462 - Node name: mouseover
+Leaked instance: ConvexPolygonShape2D:1549 - Resource name:  Path: 
+Leaked instance: Control:2148 - Node name: DeleteGUI
+Leaked instance: StreamTexture:1631 - Resource name:  Path: res://Grafik/Assets/GUI/MenuArrow.png
+Leaked instance: StreamTexture:1637 - Resource name:  Path: res://Grafik/Assets/GUI/Menu.png
+Leaked instance: Line2D:2151 - Node name: Line2D
+Leaked instance: CollisionShape2D:2315 - Node name: CollisionShape2D
+Leaked instance: GDScript:1634 - Resource name:  Path: res://ElectricSolver.gd
+Leaked instance: Control:2004 - Node name: CutGUI
+Leaked instance: Label:1876 - Node name: power
+Leaked instance: StreamTexture:1169 - Resource name:  Path: res://Grafik/Assets/Dachboden/Module/knodeiconframeleft.png
+Leaked instance: Control:1488 - Node name: weiter
+Leaked instance: GDScript:1640 - Resource name:  Path: res://EdgesLogic.gd
+Leaked instance: Control:2179 - Node name: DeleteGUI
+Leaked instance: Light2D:2235 - Node name: Light2D3
+Leaked instance: Label:2376 - Node name: Label
+Leaked instance: Control:4204 - Node name: DeleteGUI
+Leaked instance: Label:2359 - Node name: Label
+Leaked instance: Sprite:1475 - Node name: augen
+Leaked instance: ConvexPolygonShape2D:1530 - Resource name:  Path: 
+Leaked instance: Label:1559 - Node name: InfoLineBuch
+Leaked instance: Light2D:2233 - Node name: Light2D
+Leaked instance: Sprite:2362 - Node name: SpriteCircle
+Leaked instance: Area2D:1501 - Node name: AreaWoZi
+Leaked instance: StreamTexture:1254 - Resource name:  Path: res://Grafik/Assets/Kinderzimmer/menubg.png
+Leaked instance: ConvexPolygonShape2D:1504 - Resource name:  Path: 
+Leaked instance: Path2D:2172 - Node name: Path2D
+Leaked instance: Line2D:2261 - Node name: Line2D
+Leaked instance: Sprite:2382 - Node name: Warning
+Leaked instance: Animation:1422 - Resource name: zurueck Path: res://WoZi.tscn::4
+Leaked instance: StreamTexture:1343 - Resource name:  Path: res://Grafik/Avatar/o5.png
+Leaked instance: GDScript:1257 - Resource name:  Path: res://Szenen/MainMenu.gd
+Leaked instance: StreamTexture:1646 - Resource name:  Path: res://Grafik/Assets/GUI/cableIcon.png
+Leaked instance: VBoxContainer:1986 - Node name: Control
+Leaked instance: Node2D:2045 - Node name: Knode
+Leaked instance: Sprite:2177 - Node name: Sprite
+Leaked instance: StreamTexture:1652 - Resource name:  Path: res://Grafik/Assets/GUI/arrowUpDown.png
+Leaked instance: Control:2257 - Node name: CutGUI
+Leaked instance: Sprite:2379 - Node name: SpriteCircle
+Leaked instance: GDScript:1264 - Resource name:  Path: res://Grafik/alleSprites.gd
+Leaked instance: DynamicFont:1643 - Resource name:  Path: res://Grafik/Assets/Theme/new_dynamicfont.tres
+Leaked instance: ScrollContainer:1983 - Node name: ScrollContainer
+Leaked instance: Curve2D:2232 - Resource name:  Path: 
+Leaked instance: Label:2286 - Node name: Label
+Leaked instance: Area2D:2290 - Node name: Area2D
+Leaked instance: Node2D:2317 - Node name: index
+Leaked instance: ImageTexture:2388 - Resource name:  Path: 
+Leaked instance: StreamTexture:1251 - Resource name:  Path: res://Grafik/Assets/GUI/MainMenu.png
+Leaked instance: Curve2D:2174 - Resource name:  Path: 
+Leaked instance: Sprite:2313 - Node name: SpriteCircle
+Leaked instance: Sprite:2365 - Node name: Warning
+Leaked instance: StreamTexture:1649 - Resource name:  Path: res://Grafik/Assets/GUI/Modul_frame.png
+Leaked instance: Sprite:1989 - Node name: Uebersicht
+Leaked instance: CheckBox:2042 - Node name: Aufgabe
+Leaked instance: Node2D:2176 - Node name: @EdgeLine@26
+Leaked instance: DynamicFont:1367 - Resource name:  Path: res://Grafik/Avatar.tscn::1
+Leaked instance: StreamTexture:1349 - Resource name:  Path: res://Grafik/Avatar/u1.png
+Leaked instance: Node2D:1517 - Node name: Signals
+Leaked instance: CollisionPolygon2D:1546 - Node name: CollisionPolygon2D
+Leaked instance: Path2D:2230 - Node name: Path2D
+Leaked instance: Label:2319 - Node name: Nighbors
+Leaked instance: Label:2385 - Node name: Nighbors
+Leaked instance: Label:1555 - Node name: CounteAufgaben
+Leaked instance: Polygon2D:1498 - Node name: ColorRect
+Leaked instance: Line2D:1877 - Node name: Line2D
+Leaked instance: Label:2150 - Node name: power
+Leaked instance: Node2D:1442 - Node name: MainMenu
+Leaked instance: ConvexPolygonShape2D:1527 - Resource name:  Path: 
+Leaked instance: Control:1873 - Node name: CutGUI
+Leaked instance: Line2D:2200 - Node name: Line2D
+Leaked instance: Sprite:2332 - Node name: Warning
+Leaked instance: GDScript:1412 - Resource name:  Path: res://Blanco.gd
+Leaked instance: Node2D:4205 - Node name: Mid
+Leaked instance: Label:1445 - Node name: Titel
+Leaked instance: Control:1469 - Node name: close
+Leaked instance: Control:2250 - Node name: TurnCCW
+Leaked instance: Area2D:2047 - Node name: Area2D
+Leaked instance: Line2D:2211 - Node name: Line2D
+Leaked instance: Sprite:1553 - Node name: KapitelInfo
+Leaked instance: Control:2208 - Node name: DeleteGUI
+Leaked instance: Line2D:2271 - Node name: Line2D
+Leaked instance: Label:2279 - Node name: Nighbors
+Leaked instance: Sprite:2324 - Node name: Warning
+Leaked instance: ColorRect:1447 - Node name: mouseover
+Leaked instance: Node2D:1472 - Node name: CompositeSprites
+Leaked instance: Sprite:1468 - Node name: close
+Leaked instance: Polygon2D:1497 - Node name: ColorRect2
+Leaked instance: GDScript:1222 - Resource name:  Path: res://LevelSum.gd
+Leaked instance: CollisionPolygon2D:1524 - Node name: CollisionPolygon2D
+Leaked instance: ConvexPolygonShape2D:1526 - Resource name:  Path: 
+Leaked instance: Sprite:2192 - Node name: TurnRSprite
+Leaked instance: Curve2D:2203 - Resource name:  Path: 
+Leaked instance: Control:2187 - Node name: Delete
+Leaked instance: Control:2258 - Node name: DeleteGUI
+Leaked instance: Label:2287 - Node name: Nighbors
+Leaked instance: Sprite:2195 - Node name: Sprite
+Leaked instance: Sprite:2316 - Node name: Warning
+Leaked instance: Area2D:1523 - Node name: AreaKiZi2
+Leaked instance: Line2D:2182 - Node name: Line2D
+Leaked instance: GDScript:1212 - Resource name:  Path: res://Battery.gd
+Leaked instance: Line2D:2037 - Node name: Line2D
+Leaked instance: Sprite:2337 - Node name: SpriteCircle
+Leaked instance: Sprite:2308 - Node name: Warning
+Leaked instance: Sprite:4202 - Node name: Sprite
+Leaked instance: Node2D:1466 - Node name: Button5
+Leaked instance: Node2D:1495 - Node name: HouseScene
+Leaked instance: Control:2168 - Node name: DeleteGUI
+Leaked instance: Sprite:2253 - Node name: TurnRSprite
+Leaked instance: Label:2295 - Node name: Nighbors
+Leaked instance: StreamTexture:1416 - Resource name:  Path: res://Grafik/Assets/Wohnzimmer/pfeil_l.png
+Leaked instance: Sprite:1444 - Node name: Menu
+Leaked instance: Path2D:2152 - Node name: Path2D
+Leaked instance: Curve2D:2185 - Resource name:  Path: 
+Leaked instance: Light2D:2266 - Node name: Light2D2
+Leaked instance: StreamTexture:1304 - Resource name:  Path: res://Grafik/Avatar/h4.png
+Leaked instance: Control:2034 - Node name: DeleteGUI
+Leaked instance: Control:1874 - Node name: DeleteGUI
+Leaked instance: Node2D:2031 - Node name: EdgeLine
+Leaked instance: Label:1556 - Node name: Title
+Leaked instance: Area2D:2282 - Node name: Area2D
+Leaked instance: Node2D:2169 - Node name: Mid
+Leaked instance: AnimatedTexture:1419 - Resource name:  Path: res://WoZi.tscn::1
+Leaked instance: StreamTexture:1193 - Resource name:  Path: res://Grafik/Assets/Dachboden/Module/knodeiconframeright.png
+Leaked instance: Node2D:2145 - Node name: EdgeLine2
+Leaked instance: Node2D:2155 - Node name: EdgeLine3
+Leaked instance: Sprite:2292 - Node name: Warning
+Leaked instance: Label:2311 - Node name: Nighbors
+Leaked instance: Sprite:2321 - Node name: SpriteCircle
+Leaked instance: Line2D:4207 - Node name: Line2D
+Leaked instance: Control:2240 - Node name: DeleteGUI
+Leaked instance: StreamTexture:1310 - Resource name:  Path: res://Grafik/Avatar/h6.png
+Leaked instance: Node2D:2227 - Node name: Mid
+Leaked instance: Node2D:2255 - Node name: EdgeLine
+Leaked instance: PackedScene:1190 - Resource name:  Path: res://Szenen/EdgeLine.tscn
+Leaked instance: Sprite:2224 - Node name: Sprite
+Leaked instance: Label:1552 - Node name: Label
+Leaked instance: Sprite:2166 - Node name: Sprite
+Leaked instance: Line2D:2171 - Node name: Line2D
+Leaked instance: Label:1465 - Node name: Label
+Leaked instance: Label:1494 - Node name: Label
+Leaked instance: Sprite:1453 - Node name: SpielLaden
+Leaked instance: Gradient:1657 - Resource name:  Path: res://Szenen/MenuDown.tscn::2
+Leaked instance: Label:2326 - Node name: Label
+Leaked instance: Control:2248 - Node name: Delete
+Leaked instance: Control:2016 - Node name: DeleteGUI
+Leaked instance: Control:2114 - Node name: newAmpermeter
+Leaked instance: ConvexPolygonShape2D:1534 - Resource name:  Path: 
+Leaked instance: Sprite:1476 - Node name: oben
+Leaked instance: Sprite:2136 - Node name: Sprite
+Leaked instance: Control:2268 - Node name: Aufgabe3
+Leaked instance: Area2D:2298 - Node name: Area2D
+Leaked instance: Sprite:2305 - Node name: SpriteCircle
+Leaked instance: StreamTexture:1394 - Resource name:  Path: res://Grafik/Assets/GUI/smallArrow_deactive.png
+Leaked instance: Label:1455 - Node name: Label2
+Leaked instance: ConvexPolygonShape2D:1532 - Resource name:  Path: 
+Leaked instance: Path2D:1846 - Node name: Path2D
+Leaked instance: Curve2D:2022 - Resource name:  Path: 
+Leaked instance: Sprite:2105 - Node name: Battery
+Leaked instance: Curve2D:4210 - Resource name:  Path: 
+Leaked instance: Label:1450 - Node name: Label
+Leaked instance: Sprite:1571 - Node name: living_r
+Leaked instance: StreamTexture:1313 - Resource name:  Path: res://Grafik/Avatar/a1.png
+Leaked instance: GDScript:1174 - Resource name:  Path: res://Edge.gd
+Leaked instance: Button:1479 - Node name: haare
+Leaked instance: Path2D:2142 - Node name: Path2D
+Leaked instance: Node2D:2194 - Node name: EdgeLine
+Leaked instance: Node2D:2272 - Node name: Knode
+Leaked instance: Node2D:2366 - Node name: index
+Leaked instance: Animation:1656 - Resource name: menuUp Path: res://Szenen/MenuDown.tscn::1
+Leaked instance: Node2D:1875 - Node name: Mid
+Leaked instance: Line2D:2019 - Node name: Line2D
+Leaked instance: Control:2025 - Node name: CutOut
+Leaked instance: Node:2099 - Node name: ElectricSolver
+Leaked instance: Node2D:2277 - Node name: index
+Leaked instance: Area2D:1545 - Node name: AreaKiZi3
+Leaked instance: Label:2335 - Node name: Nighbors
+Leaked instance: StreamTexture:1307 - Resource name:  Path: res://Grafik/Avatar/h5.png
+Leaked instance: StreamTexture:1274 - Resource name:  Path: res://Grafik/Avatar/acc4.png
+Leaked instance: Label:1460 - Node name: Label
+Leaked instance: ConvexPolygonShape2D:1547 - Resource name:  Path: 
+Leaked instance: Area2D:2372 - Node name: Area2D
+Leaked instance: GDScript:1397 - Resource name:  Path: res://Arrows.gd
+Leaked instance: Label:1489 - Node name: Label
+Leaked instance: Label:1727 - Node name: Label2
+Leaked instance: Control:2197 - Node name: DeleteGUI
+Leaked instance: WeakRef:2369
+Leaked instance: TextureRect:1580 - Node name: rpfeil
+Leaked instance: Control:2216 - Node name: Delete
+Leaked instance: Node2D:2301 - Node name: index
+Leaked instance: Label:2302 - Node name: Label
+Leaked instance: Node2D:1537 - Node name: Signals
+Leaked instance: Sprite:2329 - Node name: SpriteCircle
+Leaked instance: StreamTexture:1268 - Resource name:  Path: res://Grafik/Avatar/acc2.png
+Leaked instance: Control:1973 - Node name: Arrow
+Leaked instance: Curve2D:2001 - Resource name:  Path: 
+Leaked instance: Node2D:2378 - Node name: @Knode@34
+Leaked instance: TextureRect:1577 - Node name: lpfeil
+Leaked instance: Sprite:2221 - Node name: TurnRSprite
+Leaked instance: Node2D:2375 - Node name: index
+Leaked instance: Control:1574 - Node name: Blanco
+Leaked instance: Control:1995 - Node name: DeleteGUI
+Leaked instance: Sprite:2132 - Node name: Uebersicht
+Leaked instance: Area2D:2274 - Node name: Area2D
+Leaked instance: CollisionShape2D:2275 - Node name: CollisionShape2D
+Leaked instance: Sprite:1970 - Node name: Ampermeter
+Leaked instance: CollisionShape2D:2048 - Node name: CollisionShape2D
+Leaked instance: CollisionShape2D:2381 - Node name: CollisionShape2D
+Leaked instance: StreamTexture:1413 - Resource name:  Path: res://Grafik/Assets/Wohnzimmer/lit.png
+Leaked instance: Control:1967 - Node name: newResistor
+Leaked instance: Control:2138 - Node name: DeleteGUI
+Leaked instance: Control:2188 - Node name: CutOut
+Leaked instance: Node2D:1733 - Node name: Button4
+Leaked instance: Line2D:1998 - Node name: Line2D
+Leaked instance: Sprite:2247 - Node name: InfoSprite
+Leaked instance: Area2D:2363 - Node name: Area2D
+Leaked instance: GDScriptNativeClass:690
+Leaked instance: Sprite:1568 - Node name: mouseover
+Leaked instance: Control:2218 - Node name: TurnCCW
+Leaked instance: Label:2360 - Node name: Nighbors
+Leaked instance: Sprite:1562 - Node name: ArrowRight
+Leaked instance: Sprite:2081 - Node name: Warning
+Leaked instance: Sprite:2219 - Node name: TurnLSprite
+Leaked instance: Path2D:2244 - Node name: Path2D
+Leaked instance: CollisionPolygon2D:1529 - Node name: CollisionPolygon2D
+Leaked instance: ColorRect:1739 - Node name: mouseover
+Leaked instance: Path2D:1878 - Node name: Path2D
+Leaked instance: Control:2158 - Node name: DeleteGUI
+Leaked instance: GDScript:1247 - Resource name:  Path: res://WoZi.gd
+Leaked instance: Line2D:2161 - Node name: Line2D
+Leaked instance: Sprite:1492 - Node name: zurueck
+Leaked instance: Sprite:1730 - Node name: Kapitel
+Leaked instance: Node2D:1992 - Node name: EdgeLine
+Leaked instance: Sprite:2054 - Node name: SpriteCircle
+Leaked instance: Label:2075 - Node name: Label
+Leaked instance: Animation:1239 - Resource name: zommInshort Path: res://LevelView.tscn::3
+Leaked instance: AnimationPlayer:1550 - Node name: AnimationPlayer
+Leaked instance: Control:1565 - Node name: ControlRight
+Leaked instance: Line2D:2141 - Node name: Line2D
+Leaked instance: DynamicFont:1241 - Resource name:  Path: res://LevelView.tscn::1
+Leaked instance: GDScript:1179 - Resource name:  Path: res://Knode.gd
+Leaked instance: Node2D:1456 - Node name: Button3
+Leaked instance: Sprite:1602 - Node name: Sprite
+Leaked instance: Path2D:2262 - Node name: Path2D
+Leaked instance: Node2D:4201 - Node name: EdgeLine
+Leaked instance: Control:1613 - Node name: zurueck
+Leaked instance: CollisionShape2D:2072 - Node name: CollisionShape2D
+Leaked instance: Node2D:2094 - Node name: AufgListe3
+Leaked instance: Button:1484 - Node name: acc
+Leaked instance: Area2D:1541 - Node name: AreaKiZi2
+Leaked instance: Control:2167 - Node name: CutGUI
+Leaked instance: CollisionShape2D:2299 - Node name: CollisionShape2D
+Leaked instance: SceneState:1182
+Leaked instance: ConvexPolygonShape2D:1540 - Resource name:  Path: 
+Leaked instance: Label:1599 - Node name: DescriptionTitle
+Leaked instance: Sprite:1607 - Node name: Sprite
+Leaked instance: StreamTexture:1322 - Resource name:  Path: res://Grafik/Avatar/a4.png
+Leaked instance: StreamTexture:1235 - Resource name:  Path: res://Grafik/Assets/GUI/lvl_view.png
+Leaked instance: Label:1608 - Node name: LvlIndex
+Leaked instance: Node2D:2135 - Node name: EdgeLine
+Leaked instance: Path2D:2212 - Node name: Path2D
+Leaked instance: WeakRef:2352
+Leaked instance: CollisionPolygon2D:1542 - Node name: CollisionPolygon2D
+Leaked instance: Node2D:1610 - Node name: Button
+Leaked instance: Label:2278 - Node name: Label
+Leaked instance: GDScript:1238 - Resource name:  Path: res://ArrowLeftRight.gd
+Leaked instance: Control:1605 - Node name: LevelSum3
+Leaked instance: Label:1844 - Node name: power
+Leaked instance: AnimationPlayer:1988 - Node name: AnimationPlayer
+Leaked instance: DynamicFont:1405 - Resource name:  Path: res://HouseScene.tscn::5
+Leaked instance: Control:1454 - Node name: loadGame
+Leaked instance: Node2D:2358 - Node name: index
+Leaked instance: Sprite:1964 - Node name: Lamp
+Leaked instance: Label:2051 - Node name: Label
+Leaked instance: Control:2191 - Node name: TurnCW
+Leaked instance: Area2D:2355 - Node name: Area2D
+Leaked instance: GDScript:1228 - Resource name:  Path: res://Szenen/MainMenuBtn.gd
+Leaked instance: Sprite:1840 - Node name: Sprite
+Leaked instance: StreamTexture:1398 - Resource name:  Path: res://gbtest.png
+Leaked instance: StreamTexture:1232 - Resource name:  Path: res://Grafik/Assets/Dachboden/roof_animation.png
+Leaked instance: Sprite:1458 - Node name: Kapitel
+Leaked instance: Button:1483 - Node name: unten
+Leaked instance: Node2D:1843 - Node name: Mid
+Leaked instance: Sprite:2057 - Node name: Warning
+Leaked instance: Animation:1401 - Resource name: egToDg Path: res://HouseScene.tscn::1
+Leaked instance: GDScript:1172 - Resource name:  Path: res://Modul.gd
+Leaked instance: Node2D:1461 - Node name: Button4
+Leaked instance: Sprite:1487 - Node name: Starten
+Leaked instance: Label:1614 - Node name: Label
+Leaked instance: DynamicFont:1403 - Resource name:  Path: res://HouseScene.tscn::3
+Leaked instance: ConvexPolygonShape2D:1543 - Resource name:  Path: 
+Leaked instance: Node2D:2320 - Node name: @Knode@24
+Leaked instance: Node2D:2361 - Node name: @Knode@31
+Leaked instance: Node2D:1485 - Node name: Weiter
+Leaked instance: Node2D:2312 - Node name: @Knode@23
+Leaked instance: CollisionShape2D:2364 - Node name: CollisionShape2D
+Leaked instance: Animation:1402 - Resource name:  Path: res://HouseScene.tscn::2
+Leaked instance: StreamTexture:1176 - Resource name:  Path: res://knodeSpr.png
+Leaked instance: ColorRect:1457 - Node name: mouseover
+Leaked instance: Control:1459 - Node name: kapitel
+Leaked instance: Sprite:1583 - Node name: zurueck
+Leaked instance: ColorRect:1611 - Node name: mouseover
+Leaked instance: Sprite:2078 - Node name: SpriteCircle
+Leaked instance: Sprite:2254 - Node name: Sprite
+Leaked instance: Button:1481 - Node name: kopf
+Leaked instance: ConvexPolygonShape2D:1544 - Resource name:  Path: 
+Leaked instance: GDScript:1644 - Resource name:  Path: res://TableszeneSkript.gd
+Leaked instance: StreamTexture:1186 - Resource name:  Path: res://Grafik/Assets/Dachboden/Module/cableiconframe.png
+Leaked instance: Node2D:1586 - Node name: LevelView
+Leaked instance: GDScript:1641 - Resource name:  Path: res://KnodesLogic.gd
+Leaked instance: Curve2D:2040 - Resource name:  Path: 
+Leaked instance: CPUParticles2D:2117 - Node name: Particles2D
+Leaked instance: Sprite:2281 - Node name: SpriteCircle
+Leaked instance: Curve2D:2154 - Resource name:  Path: 
+Leaked instance: CollisionShape2D:2323 - Node name: CollisionShape2D
+Leaked instance: HScrollBar:1592 - Node name: _h_scroll
+Leaked instance: GDScript:1635 - Resource name:  Path: res://Uebersicht.gd
+Leaked instance: Control:2157 - Node name: CutGUI
+Leaked instance: Curve2D:1189 - Resource name:  Path: res://Szenen/EdgeLine.tscn::1
+Leaked instance: Sprite:1872 - Node name: Sprite
+Leaked instance: Sprite:2215 - Node name: InfoSprite
+Leaked instance: Node2D:2236 - Node name: Lampe2
+Leaked instance: Node2D:2336 - Node name: @Knode@27
+Leaked instance: Node2D:2012 - Node name: Battery
+Leaked instance: ColorRect:2096 - Node name: tisch
+Leaked instance: Sprite:2111 - Node name: Voltometer
+Leaked instance: Node2D:2118 - Node name: Modules
+Leaked instance: Light2D:2265 - Node name: Light2D
+Leaked instance: PackedScene:1181 - Resource name:  Path: res://Szenen/Knode.tscn
+Leaked instance: ColorRect:1452 - Node name: mouseover
+Leaked instance: Sprite:1536 - Node name: Dachboden
+Leaked instance: CollisionPolygon2D:1539 - Node name: CollisionPolygon2D
+Leaked instance: Sprite:1589 - Node name: Menuframe
+Leaked instance: Button:1482 - Node name: oben
+Leaked instance: Label:1560 - Node name: CounterBuchseiten
+Leaked instance: Control:1991 - Node name: Uebersicht
+Leaked instance: Control:1994 - Node name: CutGUI
+Leaked instance: Label:1598 - Node name: LvlIndex
+Leaked instance: Control:2112 - Node name: new Voltometer
+Leaked instance: Sprite:2222 - Node name: Sprite
+Leaked instance: Control:1595 - Node name: LevelSum1
+Leaked instance: Node2D:2325 - Node name: index
+Leaked instance: Label:1604 - Node name: DescriptionTitle
+Leaked instance: GDScript:1660 - Resource name:  Path: res://ModulLogik.gd
+Leaked instance: Sprite:2046 - Node name: SpriteCircle
+Leaked instance: Node2D:2296 - Node name: @Knode@21
+Leaked instance: ColorRect:1601 - Node name: ColorRect
+Leaked instance: Curve2D:2164 - Resource name:  Path: 
+Leaked instance: Control:2225 - Node name: CutGUI
+Leaked instance: Sprite:2251 - Node name: TurnLSprite
+Leaked instance: StreamTexture:1316 - Resource name:  Path: res://Grafik/Avatar/a2.png
+Leaked instance: Node2D:1490 - Node name: Zurueck
+Leaked instance: Label:1997 - Node name: power
+Leaked instance: Sprite:2102 - Node name: ArrowUpDown
+Leaked instance: ColorRect:1486 - Node name: mouseover
+Leaked instance: Label:2043 - Node name: Label
+Leaked instance: Label:2170 - Node name: power
+Leaked instance: Area2D:2338 - Node name: Area2D
+**ERROR**: Resources Still in use at Exit!
+   At: core/resource.cpp:476:clear() - Resources Still in use at Exit!
+Orphan StringName: Node2D
+Orphan StringName: oeffnen
+Orphan StringName: Voltometer
+Orphan StringName: original
+Orphan StringName: cutLeft
+Orphan StringName: _on_ControlLeft_gui_input
+Orphan StringName: @EdgeLine@16
+Orphan StringName: res://Grafik/Avatar.gd::39::_on_oben_pressed
+Orphan StringName: _animation_changed
+Orphan StringName: @EdgeLine@26
+Orphan StringName: @EdgeLine@29
+Orphan StringName: zommInshort
+Orphan StringName: Delete
+Orphan StringName: Warning
+Orphan StringName: ..
+Orphan StringName: res://Edge.gd::0::Edge._init
+Orphan StringName: @EdgeLine@32
+Orphan StringName: closedCircuit
+Orphan StringName: res://MenuItemsBar.gd::39::_on_newBattery_gui_input
+Orphan StringName: res://AufgabenFrame.gd::9::LevelListe._ready
+Orphan StringName: checkCombine
+Orphan StringName: free
+Orphan StringName: mouse_exited
+Orphan StringName: _on_LevelSum3_gui_input
+Orphan StringName: AreaKiZi
+Orphan StringName: depth
+Orphan StringName: res://LevelView.gd::0::LevelView._init
+Orphan StringName: get_node
+Orphan StringName: res://MenuItemsBar.gd
+Orphan StringName: _on_about_gui_input
+Orphan StringName: res://HouseScene.gd
+Orphan StringName: get_curve
+Orphan StringName: ElectricSolver
+Orphan StringName: _on_TransistDg_input_event
+Orphan StringName: midx
+Orphan StringName: midy
+Orphan StringName: res://KnodesLogic.gd::0::_init
+Orphan StringName: Gvisiteds
+Orphan StringName: res://Knode.gd::12::Knode.save_this
+Orphan StringName: haare
+Orphan StringName: anim_name
+Orphan StringName: res://TableszeneSkript.gd::18::connectTable
+Orphan StringName: res://LevelView.gd::57::LevelView.enterScene
+Orphan StringName: CounterUmfragen
+Orphan StringName: res://Szenen/MainMenu.gd
+Orphan StringName: otherV
+Orphan StringName: Epart
+Orphan StringName: dark
+Orphan StringName: res://Grafik/Avatar.gd::60::_on_zurueck_gui_input
+Orphan StringName: res://WoZi.gd::18::BookRoom._on_zurueck_gui_input
+Orphan StringName: _on_Down_input_event
+Orphan StringName: clear_points
+Orphan StringName: weiter
+Orphan StringName: Down
+Orphan StringName: release_from_front
+Orphan StringName: dict
+Orphan StringName: res://Grafik/Avatar.gd::0::_init
+Orphan StringName: res://LevelSum.gd
+Orphan StringName: res://Lampe.gd::35::Lamp.delete_module
+Orphan StringName: res://LvlIndex.gd::0::_init
+Orphan StringName: add_child
+Orphan StringName: correct
+Orphan StringName: res://Grafik/Avatar.gd::24::_on_haare_pressed
+Orphan StringName: res://ElectricSolver.gd
+Orphan StringName: connectTable
+Orphan StringName: margin_bottom
+Orphan StringName: res://Aufgabe2.gd::9::_process
+Orphan StringName: updateBase
+Orphan StringName: res://Battery.gd::0::Battery._init
+Orphan StringName: levelPreviews
+Orphan StringName: res://Szenen/MainMenu.gd::28::_on_about_gui_input
+Orphan StringName: e_leftKnode
+Orphan StringName: __meta__
+Orphan StringName: res://ElectricSolver.gd::376::ElectricSolver.solverSol
+Orphan StringName: macheNeueKabel
+Orphan StringName: frame
+Orphan StringName: instance
+Orphan StringName: found
+Orphan StringName: res://Aufgabe2.gd::0::_init
+Orphan StringName: curr_unten
+Orphan StringName: CounteAufgaben
+Orphan StringName: oldPos
+Orphan StringName: loadGame
+Orphan StringName: res://Modul.gd::40::Module._process
+Orphan StringName: res://KnodesLogic.gd::10::_ready
+Orphan StringName: _on_rpfeil_gui_input
+Orphan StringName: viewport
+Orphan StringName: haares
+Orphan StringName: isClosed
+Orphan StringName: _body_inout
+Orphan StringName: points
+Orphan StringName: canTurnInfo
+Orphan StringName: font_outline_modulate
+Orphan StringName: play
+Orphan StringName: res://Aufgabe3.gd
+Orphan StringName: e_moduleOnEdge
+Orphan StringName: res://AufgabenFrame.gd
+Orphan StringName: cycles
+Orphan StringName: res://EdgesLogic.gd::7::_ready
+Orphan StringName: _on_kapitel_gui_input
+Orphan StringName: res://AufgabenFrame.gd::40::LevelListe.connectTableAufgaben
+Orphan StringName: reset
+Orphan StringName: Signals
+Orphan StringName: isCable
+Orphan StringName: res://Arrows.gd::19::_on_ControlRight_gui_input
+Orphan StringName: accs
+Orphan StringName: get_mouse_position
+Orphan StringName: Polygon2D
+Orphan StringName: neighbors
+Orphan StringName: hasM
+Orphan StringName: levelComplete
+Orphan StringName: res://Edge.gd::109::Edge._on_CutGUI_gui_input
+Orphan StringName: res://AufgabenFrame.gd::56::LevelListe.onLoad
+Orphan StringName: curr_oben
+Orphan StringName: tasks
+Orphan StringName: _on_CutOut_gui_input
+Orphan StringName: res://HouseScene.gd::0::_init
+Orphan StringName: Menuframe
+Orphan StringName: _on_close_gui_input
+Orphan StringName: DescriptionTitle
+Orphan StringName: res://Szenen/MainMenu.gd::32::_on_close_gui_input
+Orphan StringName: ArrowRight
+Orphan StringName: _on_AreaWoZi_input_event
+Orphan StringName: kopf
+Orphan StringName: res://WoZi.gd::10::BookRoom._ready
+Orphan StringName: res://Grafik/Avatar.gd
+Orphan StringName: res://Blanco.gd::24::_on_lpfeil_gui_input
+Orphan StringName: _on_DeleteGUI_gui_input
+Orphan StringName: Bg
+Orphan StringName: cutOutEdge
+Orphan StringName: curr_haare
+Orphan StringName: buf
+Orphan StringName: res://Modul.gd::271::Module.canTurn
+Orphan StringName: taskCompleted
+Orphan StringName: Wohnzimmer
+Orphan StringName: res://MenuItemsBar.gd::0::_init
+Orphan StringName: dist
+Orphan StringName: res://MenuItemsBar.gd::50::_on_newLamp_gui_input
+Orphan StringName: res://Szenen/MainMenu.gd::14::_on_newGame_gui_input
+Orphan StringName: save_posInPar
+Orphan StringName: Nighbors
+Orphan StringName: AreaKiZi2
+Orphan StringName: AreaKiZi3
+Orphan StringName: House
+Orphan StringName: ArrowUpDown
+Orphan StringName: button_index
+Orphan StringName: res://Szenen/MainMenu.gd::10::_ready
+Orphan StringName: myEdge
+Orphan StringName: parent
+Orphan StringName: ugToEg
+Orphan StringName: ImageTexture
+Orphan StringName: res://AufgabeBase.gd::8::_ready
+Orphan StringName: res://AufgabenFrame.gd::12::LevelListe.own_init
+Orphan StringName: idle_process_internal
+Orphan StringName: move_child
+Orphan StringName: get_viewport
+Orphan StringName: originalR
+Orphan StringName: currentChapter
+Orphan StringName: MenuDown
+Orphan StringName: ModulTypes
+Orphan StringName: _on_acc_pressed
+Orphan StringName: load_score
+Orphan StringName: CompositeSprites
+Orphan StringName: EdgeLine
+Orphan StringName: completed
+Orphan StringName: push_front
+Orphan StringName: ControlLeft
+Orphan StringName: deleted
+Orphan StringName: Gq
+Orphan StringName: res://Szenen/MainMenuBtn.gd
+Orphan StringName: res://AufgabeBase.gd::0::_init
+Orphan StringName: shape_idx
+Orphan StringName: augens
+Orphan StringName: _on_newGame_mouse_exited
+Orphan StringName: res://HouseScene.gd::10::_ready
+Orphan StringName: Aufgabe
+Orphan StringName: res://Grafik/Avatar.gd::34::_on_kopf_pressed
+Orphan StringName: curr_acc
+Orphan StringName: arrE
+Orphan StringName: res://Edge.gd::121::Edge.deleteMe
+Orphan StringName: room_type
+Orphan StringName: res://EdgesLogic.gd::10::own_init
+Orphan StringName: onClose
+Orphan StringName: _texture_changed
+Orphan StringName: Edges
+Orphan StringName: res://Grafik/Avatar.gd::0::_ready
+Orphan StringName: remove
+Orphan StringName: Ampermeter
+Orphan StringName: GDScriptNativeClass
+Orphan StringName: _on_Delete_gui_input
+Orphan StringName: _on_newLamp_gui_input
+Orphan StringName: newResistor
+Orphan StringName: HouseScene
+Orphan StringName: _on_ControlRight_mouse_exited
+Orphan StringName: RichTextLabel
+Orphan StringName: Area2D
+Orphan StringName: _on_ControlLeft_mouse_entered
+Orphan StringName: e_isCable
+Orphan StringName: tisch
+Orphan StringName: CheckBox
+Orphan StringName: cut_out_module
+Orphan StringName: _on_haare_pressed
+Orphan StringName: _on_TurnCW_gui_input
+Orphan StringName: changeLvl
+Orphan StringName: Modules
+Orphan StringName: res://AufgabenFrame.gd::20::LevelListe._on_Control_gui_input
+Orphan StringName: electricSolver
+Orphan StringName: connectTableAufgaben
+Orphan StringName: augen
+Orphan StringName: shape
+Orphan StringName: _h_scroll
+Orphan StringName: Menu
+Orphan StringName: font
+Orphan StringName: BookScene
+Orphan StringName: BFS
+Orphan StringName: res://HouseScene.gd::114::changeLvl
+Orphan StringName: Knode
+Orphan StringName: res://Modul.gd::155::Module.cut_out_module
+Orphan StringName: solverSol
+Orphan StringName: res://InfoSprite.gd::0::_init
+Orphan StringName: save_type
+Orphan StringName: turned
+Orphan StringName: CollisionShape2D
+Orphan StringName: res://Modul.gd::112::Module.move
+Orphan StringName: SpriteCircle
+Orphan StringName: edgeSzene
+Orphan StringName: CutOut
+Orphan StringName: e_midx
+Orphan StringName: e_midy
+Orphan StringName: v_ch
+Orphan StringName: res://LevelSum.gd::10::LevelSum._ready
+Orphan StringName: Label
+Orphan StringName: othersConnectedModules
+Orphan StringName: v_p
+Orphan StringName: knodeClass
+Orphan StringName: texture
+Orphan StringName: index
+Orphan StringName: ControlRight
+Orphan StringName: res://Modul.gd::15::Module.save_this
+Orphan StringName: queue_free
+Orphan StringName: get_children
+Orphan StringName: setDrag
+Orphan StringName: Button2
+Orphan StringName: Button3
+Orphan StringName: Lampe
+Orphan StringName: res://HouseScene.gd::76::_on_TransistBook_input_event
+Orphan StringName: Button4
+Orphan StringName: Button5
+Orphan StringName: res://HouseScene.gd::24::_on_AreaKiZi_input_event
+Orphan StringName: PackedScene
+Orphan StringName: openLevel
+Orphan StringName: init_move
+Orphan StringName: res://HouseScene.gd::64::_on_TransistDg_input_event
+Orphan StringName: .
+Orphan StringName: _on_Control_gui_input
+Orphan StringName: HBoxContainer
+Orphan StringName: ready
+Orphan StringName: res://Arrows.gd
+Orphan StringName: res://Edge.gd::136::Edge.setDrag
+Orphan StringName: res://TableszeneSkript.gd
+Orphan StringName: res://Lampe.gd::6::Lamp.save_this
+Orphan StringName: G
+Orphan StringName: currentChapterNr
+Orphan StringName: M
+Orphan StringName: _curve_changed
+Orphan StringName: N
+Orphan StringName: Q
+Orphan StringName: tracks_changed
+Orphan StringName: is_pressed
+Orphan StringName: R
+Orphan StringName: U
+Orphan StringName: res://Aufgabe2.gd
+Orphan StringName: X
+Orphan StringName: untens
+Orphan StringName: LevelSum1
+Orphan StringName: LevelSum2
+Orphan StringName: LevelSum3
+Orphan StringName: a
+Orphan StringName: b
+Orphan StringName: quit
+Orphan StringName: c
+Orphan StringName: d
+Orphan StringName: res://Edge.gd::21::Edge.own_init
+Orphan StringName: e
+Orphan StringName: g
+Orphan StringName: res://Szenen/MainMenu.gd::20::_on_loadGame_gui_input
+Orphan StringName: i
+Orphan StringName: Kapitel
+Orphan StringName: j
+Orphan StringName: k
+Orphan StringName: res://ArrowLeftRight.gd::10::_ready
+Orphan StringName: _on_LevelSum1_gui_input
+Orphan StringName: l
+Orphan StringName: m
+Orphan StringName: ColorRect
+Orphan StringName: n
+Orphan StringName: q
+Orphan StringName: r
+Orphan StringName: t
+Orphan StringName: u
+Orphan StringName: res://Battery.gd
+Orphan StringName: v
+Orphan StringName: x
+Orphan StringName: y
+Orphan StringName: closed
+Orphan StringName: z
+Orphan StringName: kopfs
+Orphan StringName: res://Battery.gd::33::Battery.delete_module
+Orphan StringName: res://Modul.gd::299::Module._on_TurnCCW_gui_input
+Orphan StringName: Aufgabe2
+Orphan StringName: Aufgabe3
+Orphan StringName: res://LevelView.gd::9::LevelView._ready
+Orphan StringName: checkAgainstModule
+Orphan StringName: visibility_changed
+Orphan StringName: Label2
+Orphan StringName: gui_input
+Orphan StringName: res://Modul.gd
+Orphan StringName: sort
+Orphan StringName: mouseover
+Orphan StringName: res://Battery.gd::8::Battery.save_this
+Orphan StringName: scale
+Orphan StringName: Rechts
+Orphan StringName: Blanco
+Orphan StringName: _on_zurueck_gui_input
+Orphan StringName: leftKnode
+Orphan StringName: res://InfoSprite.gd::17::_unhandled_input
+Orphan StringName: leftknode
+Orphan StringName: res://Blanco.gd::7::_ready
+Orphan StringName: AufgabenFrame
+Orphan StringName: CounterBuchseiten
+Orphan StringName: add_point
+Orphan StringName: m_rightKnode
+Orphan StringName: curve
+Orphan StringName: value_changed
+Orphan StringName: _area_inout
+Orphan StringName: res://Grafik/Avatar.gd::54::_on_weiter_gui_input
+Orphan StringName: res://Blanco.gd::0::_init
+Orphan StringName: LvlIndex
+Orphan StringName: InfoLineUmfragen
+Orphan StringName: res://LevelSum.gd::0::LevelSum._init
+Orphan StringName: DynamicFontData
+Orphan StringName: res://Aufgabe3.gd::18::onClose
+Orphan StringName: res://Knode.gd::28::Knode._unhandled_input
+Orphan StringName: aa
+Orphan StringName: leftindex
+Orphan StringName: res://Edge.gd::48::Edge._process
+Orphan StringName: res://InfoSprite.gd::14::_process
+Orphan StringName: curr_augen
+Orphan StringName: drag
+Orphan StringName: LevelView
+Orphan StringName: newCable
+Orphan StringName: newBattery
+Orphan StringName: cc
+Orphan StringName: res://Arrows.gd::48::_on_ControlLeft_gui_input
+Orphan StringName: margin_left
+Orphan StringName: Zurueck
+Orphan StringName: Lamp
+Orphan StringName: completedLvl
+Orphan StringName: res://Arrows.gd::70::_on_ControlRight_mouse_exited
+Orphan StringName: res://LevelView.gd::29::LevelView._on_LevelSum2_gui_input
+Orphan StringName: VScrollBar
+Orphan StringName: res://Modul.gd::172::Module.turn
+Orphan StringName: Line2D
+Orphan StringName: minimum_size_changed
+Orphan StringName: res://Szenen/MainMenuBtn.gd::0::_init
+Orphan StringName: res://Knode.gd
+Orphan StringName: InfoLineBuch
+Orphan StringName: vor
+Orphan StringName: res://ElectricSolver.gd::301::ElectricSolver.fillXinMatr
+Orphan StringName: SpielLaden
+Orphan StringName: m_isVertical
+Orphan StringName: HScrollBar
+Orphan StringName: en
+Orphan StringName: res://Aufgabe3.gd::10::_ready
+Orphan StringName: _on_augen_pressed
+Orphan StringName: get_tree
+Orphan StringName: font_color
+Orphan StringName: font_color_shadow
+Orphan StringName: isUp
+Orphan StringName: ConvexPolygonShape2D
+Orphan StringName: parentGiven
+Orphan StringName: play_backwards
+Orphan StringName: AnimationPlayer
+Orphan StringName: mouse_entered
+Orphan StringName: Curve2D
+Orphan StringName: own_init
+Orphan StringName: res://MenuItemsBar.gd::11::_on_Arrow_gui_input
+Orphan StringName: res://LevelView.gd::36::LevelView._on_LevelSum3_gui_input
+Orphan StringName: res://ModulLogik.gd
+Orphan StringName: Kapitel1
+Orphan StringName: Kapitel2
+Orphan StringName: StreamTexture
+Orphan StringName: TransistDg
+Orphan StringName: res://HouseScene.gd::13::_on_AreaWoZi_input_event
+Orphan StringName: m_myEdge
+Orphan StringName: Light2D
+Orphan StringName: res://ElectricSolver.gd::124::ElectricSolver.BFS
+Orphan StringName: ii
+Orphan StringName: flip_h
+Orphan StringName: newAmpermeter
+Orphan StringName: get_child
+Orphan StringName: Knodes
+Orphan StringName: res://Aufgabe3.gd::15::_process
+Orphan StringName: AufgListe2
+Orphan StringName: AufgListe3
+Orphan StringName: Mid
+Orphan StringName: NeuesSpiel
+Orphan StringName: findE
+Orphan StringName: findG
+Orphan StringName: count
+Orphan StringName: res://Edge.gd
+Orphan StringName: connectedKnodes
+Orphan StringName: ColorRect2
+Orphan StringName: res://Grafik/alleSprites.gd::0::_init
+Orphan StringName: off
+Orphan StringName: WoZi
+Orphan StringName: res://Grafik/Avatar.gd::49::_on_acc_pressed
+Orphan StringName: energy
+Orphan StringName: InfoLineAufgaben
+Orphan StringName: mm
+Orphan StringName: mn
+Orphan StringName: _on_CutGUI_gui_input
+Orphan StringName: res://AufgabeBase.gd
+Orphan StringName: Control
+Orphan StringName: res://Modul.gd::138::Module._on_CutOut_gui_input
+Orphan StringName: res://Lampe.gd::14::Lamp.myInit
+Orphan StringName: voltage
+Orphan StringName: append
+Orphan StringName: allEdgesNodes
+Orphan StringName: DynamicFont
+Orphan StringName: ns
+Orphan StringName: ScrollContainer2
+Orphan StringName: ownInit
+Orphan StringName: visited
+Orphan StringName: zoomIn
+Orphan StringName: macheNeuesModul
+Orphan StringName: res://AufgabenFrame.gd::31::LevelListe.taskCompleted
+Orphan StringName: dragging
+Orphan StringName: text
+Orphan StringName: res://Modul.gd::143::Module.delete_module
+Orphan StringName: _on_ControlRight_gui_input
+Orphan StringName: canTurn
+Orphan StringName: Titel
+Orphan StringName: Animaion
+Orphan StringName: res://ElectricSolver.gd::0::ElectricSolver._init
+Orphan StringName: _v_scroll
+Orphan StringName: get_parent
+Orphan StringName: SceneState
+Orphan StringName: allKnodesNodes
+Orphan StringName: egToDg
+Orphan StringName: Button
+Orphan StringName: rn
+Orphan StringName: completeCycle
+Orphan StringName: save_dict
+Orphan StringName: obens
+Orphan StringName: save_posX
+Orphan StringName: save_posY
+Orphan StringName: res://ElectricSolver.gd::354::ElectricSolver.makeSquare
+Orphan StringName: root
+Orphan StringName: v1
+Orphan StringName: v2
+Orphan StringName: parentOfAlias
+Orphan StringName: distance
+Orphan StringName: emit_signal
+Orphan StringName: AnimatedTexture
+Orphan StringName: moduleOnEdge
+Orphan StringName: res://EdgesLogic.gd::0::_init
+Orphan StringName: set_input_as_handled
+Orphan StringName: res://InfoSprite.gd
+Orphan StringName: curX
+Orphan StringName: alleSprites
+Orphan StringName: CollisionPolygon2D
+Orphan StringName: Gradient
+Orphan StringName: res://Knode.gd::0::Knode._init
+Orphan StringName: Cable
+Orphan StringName: allE
+Orphan StringName: m_turned
+Orphan StringName: cyclesCycles
+Orphan StringName: curr_kopf
+Orphan StringName: size_flags_changed
+Orphan StringName: res://LevelView.gd::43::LevelView._on_zurueck_gui_input
+Orphan StringName: _on_AreaKiZi_input_event
+Orphan StringName: alle
+Orphan StringName: state
+Orphan StringName: Title
+Orphan StringName: aufgabenComplete
+Orphan StringName: xi
+Orphan StringName: TransistBook
+Orphan StringName: WeakRef
+Orphan StringName: res://AufgabeBase.gd::12::completed
+Orphan StringName: disconnectTableAufgaben
+Orphan StringName: pullWithEdge
+Orphan StringName: CircleShape2D
+Orphan StringName: Arrows
+Orphan StringName: _on_Button3_pressed
+Orphan StringName: dir
+Orphan StringName: res://Lampe.gd::11::Lamp._ready
+Orphan StringName: res://ModulLogik.gd::4::_ready
+Orphan StringName: res://WoZi.gd::0::BookRoom._init
+Orphan StringName: _override_changed
+Orphan StringName: custom_colors/font_outline_modulate
+Orphan StringName: get_child_count
+Orphan StringName: close
+Orphan StringName: TextureRect
+Orphan StringName: pull_to_front
+Orphan StringName: Table
+Orphan StringName: _on_AnimationPlayer_animation_finished
+Orphan StringName: res://Knode.gd::9::Knode._ready
+Orphan StringName: Node
+Orphan StringName: res://TableszeneSkript.gd::14::_on_Button3_pressed
+Orphan StringName: res://EdgesLogic.gd
+Orphan StringName: z_index
+Orphan StringName: _on_newGame_gui_input
+Orphan StringName: pressed
+Orphan StringName: Sprite
+Orphan StringName: DeleteGUI
+Orphan StringName: res://ElectricSolver.gd::28::ElectricSolver.updateBase
+Orphan StringName: fillXinMatr
+Orphan StringName: position
+Orphan StringName: res://LevelSum.gd::20::LevelSum.completedLvl
+Orphan StringName: _on_Uebersicht_gui_input
+Orphan StringName: aliases
+Orphan StringName: length
+Orphan StringName: res://Modul.gd::64::Module._unhandled_input
+Orphan StringName: _on_Close_gui_input
+Orphan StringName: res://HouseScene.gd::81::enterScene
+Orphan StringName: res://AufgabenFrame.gd::0::LevelListe._init
+Orphan StringName: KinderZimmer
+Orphan StringName: res://Arrows.gd::65::_on_ControlRight_mouse_entered
+Orphan StringName: res://ElectricSolver.gd::327::ElectricSolver.findE
+Orphan StringName: VBoxContainer
+Orphan StringName: connected
+Orphan StringName: e_voltage
+Orphan StringName: menuUp
+Orphan StringName: side
+Orphan StringName: origPosition
+Orphan StringName: disconnect
+Orphan StringName: res://Battery.gd::5::Battery._ready
+Orphan StringName: res://Uebersicht.gd::0::_init
+Orphan StringName: res://Grafik/alleSprites.gd
+Orphan StringName: DynamicFontAtSize
+Orphan StringName: _on_newGame_mouse_entered
+Orphan StringName: res://Szenen/MainMenuBtn.gd::28::_on_close_gui_input
+Orphan StringName: res://Modul.gd::99::Module.checkAgainstModule
+Orphan StringName: knodeSzene
+Orphan StringName: res://Arrows.gd::10::_ready
+Orphan StringName: res://Edge.gd::130::Edge.init_move
+Orphan StringName: Resistor
+Orphan StringName: res://Grafik/Avatar.gd::21::ready
+Orphan StringName: offset
+Orphan StringName: _scroll_moved
+Orphan StringName: cutRight
+Orphan StringName: _on_LevelSum2_gui_input
+Orphan StringName: Uebersicht
+Orphan StringName: region_rect
+Orphan StringName: _on_oben_pressed
+Orphan StringName: lpfeil
+Orphan StringName: get_ref
+Orphan StringName: find
+Orphan StringName: res://Modul.gd::292::Module._on_TurnCW_gui_input
+Orphan StringName: res://Lampe.gd
+Orphan StringName: delete_module
+Orphan StringName: knSzene
+Orphan StringName: lastScene
+Orphan StringName: res://Aufgabe3.gd::0::_init
+Orphan StringName: changed
+Orphan StringName: queue_sort
+Orphan StringName: res://LevelView.gd
+Orphan StringName: @@2
+Orphan StringName: @@3
+Orphan StringName: res://Edge.gd::144::Edge.save_this
+Orphan StringName: lastscene
+Orphan StringName: res://Blanco.gd::10::_on_AnimationPlayer_animation_finished
+Orphan StringName: newLamp
+Orphan StringName: res://MenuItemsBar.gd::24::_on_newCable_gui_input
+Orphan StringName: res://AufgabenFrame.gd::52::LevelListe._on_AnimationPlayer_animation_finished
+Orphan StringName: m_leftKnode
+Orphan StringName: e_rightKnode
+Orphan StringName: res://Modul.gd::119::Module.pull_to_front
+Orphan StringName: onLoad
+Orphan StringName: buff
+Orphan StringName: oben
+Orphan StringName: reload_current_scene
+Orphan StringName: electricGauss
+Orphan StringName: rkIndex
+Orphan StringName: scene_rooms
+Orphan StringName: _process
+Orphan StringName: event
+Orphan StringName: save_this
+Orphan StringName: LvlView
+Orphan StringName: res://TableszeneSkript.gd::7::own_init
+Orphan StringName: TurnRSprite
+Orphan StringName: Particles2D
+Orphan StringName: GUI
+Orphan StringName: aufgSlideOut
+Orphan StringName: EdgeLine2
+Orphan StringName: rightKnode
+Orphan StringName: empty
+Orphan StringName: EdgeLine3
+Orphan StringName: res://Grafik/Avatar.gd::29::_on_augen_pressed
+Orphan StringName: EdgeLine4
+Orphan StringName: res://Szenen/MainMenuBtn.gd::10::_ready
+Orphan StringName: modulate
+Orphan StringName: Avatar
+Orphan StringName: lit
+Orphan StringName: turn
+Orphan StringName: matrX
+Orphan StringName: rightknode
+Orphan StringName: res://ArrowLeftRight.gd::0::_init
+Orphan StringName: Lampe2
+Orphan StringName: Links
+Orphan StringName: repeat
+Orphan StringName: gotoScene
+Orphan StringName: res://Aufgabe2.gd::4::_ready
+Orphan StringName: _on_unten_pressed
+Orphan StringName: res://ModulLogik.gd::0::_init
+Orphan StringName: res://Blanco.gd
+Orphan StringName: _on_ControlLeft_mouse_exited
+Orphan StringName: sideL
+Orphan StringName: e_isLockedDirection
+Orphan StringName: sideR
+Orphan StringName: move
+Orphan StringName: neighs
+Orphan StringName: TurnCW
+Orphan StringName: CPUParticles2D
+Orphan StringName: res://HouseScene.gd::69::_on_Down_input_event
+Orphan StringName: acc
+Orphan StringName: matrixX
+Orphan StringName: matrixY
+Orphan StringName: rightindex
+Orphan StringName: margin_right
+Orphan StringName: allEdgesBase
+Orphan StringName: deleteMe
+Orphan StringName: res://Edge.gd::69::Edge._unhandled_input
+Orphan StringName: res://Szenen/MainMenuBtn.gd::22::_on_loadGame_gui_input
+Orphan StringName: res://Modul.gd::0::Module._init
+Orphan StringName: @Knode@13
+Orphan StringName: @Knode@14
+Orphan StringName: isVertical
+Orphan StringName: @Knode@15
+Orphan StringName: @Knode@17
+Orphan StringName: modules
+Orphan StringName: @Knode@18
+Orphan StringName: @Knode@19
+Orphan StringName: Path2D
+Orphan StringName: enterScene
+Orphan StringName: Weiter
+Orphan StringName: @Knode@20
+Orphan StringName: @Knode@21
+Orphan StringName: @Knode@22
+Orphan StringName: res://InfoSprite.gd::38::_on_Close_gui_input
+Orphan StringName: @Knode@23
+Orphan StringName: @Knode@24
+Orphan StringName: @Knode@25
+Orphan StringName: @Knode@27
+Orphan StringName: @Knode@28
+Orphan StringName: @Knode@30
+Orphan StringName: res://TableszeneSkript.gd::3::_ready
+Orphan StringName: @Knode@31
+Orphan StringName: @Knode@33
+Orphan StringName: @Knode@34
+Orphan StringName: k_neighbors
+Orphan StringName: visible
+Orphan StringName: isLockedDirection
+Orphan StringName: _on_TransistBook_input_event
+Orphan StringName: _scroll_changed
+Orphan StringName: _on_weiter_gui_input
+Orphan StringName: _on_loadGame_gui_input
+Orphan StringName: _init
+Orphan StringName: allKnodesBase
+Orphan StringName: res://MenuItemsBar.gd::6::_ready
+Orphan StringName: MainMenu
+Orphan StringName: res://Uebersicht.gd::6::_ready
+Orphan StringName: About
+Orphan StringName: cyclesCyclesSecHalf
+Orphan StringName: _unhandled_input
+Orphan StringName: newGame
+Orphan StringName: connect
+Orphan StringName: ScrollContainer
+Orphan StringName: res://Szenen/MainMenuBtn.gd::17::_on_newGame_mouse_exited
+Orphan StringName: e_resistance
+Orphan StringName: res://Edge.gd::115::Edge._on_DeleteGUI_gui_input
+Orphan StringName: new Voltometer
+Orphan StringName: about
+Orphan StringName: size
+Orphan StringName: active
+Orphan StringName: Kinderzimmer2
+Orphan StringName: res://Uebersicht.gd
+Orphan StringName: animation_finished
+Orphan StringName: lvl
+Orphan StringName: percent_visible
+Orphan StringName: res://AufgabenFrame.gd::47::LevelListe.disconnectTableAufgaben
+Orphan StringName: res://Grafik/Avatar.gd::44::_on_unten_pressed
+Orphan StringName: res://TableszeneSkript.gd::0::_init
+Orphan StringName: input_event
+Orphan StringName: pos
+Orphan StringName: res://LvlIndex.gd
+Orphan StringName: kapitel
+Orphan StringName: resistance
+Orphan StringName: _ready
+Orphan StringName: moEIndex
+Orphan StringName: res://Szenen/MainMenu.gd::24::_on_kapitel_gui_input
+Orphan StringName: res://LevelView.gd::48::LevelView.onLoad
+Orphan StringName: get_closest_point
+Orphan StringName: align
+Orphan StringName: power
+Orphan StringName: newMY
+Orphan StringName: res://Lampe.gd::17::Lamp._process
+Orphan StringName: res://Aufgabe2.gd::12::onClose
+Orphan StringName: light
+Orphan StringName: res://Modul.gd::44::Module.myInit
+Orphan StringName: setRoomSate
+Orphan StringName: res://Arrows.gd::41::_on_ControlLeft_mouse_exited
+Orphan StringName: arE
+Orphan StringName: Dachboden
+Orphan StringName: _on_kopf_pressed
+Orphan StringName: GDScript
+Orphan StringName: Animation
+Orphan StringName: res://Lampe.gd::0::Lamp._init
+Orphan StringName: _on_Arrow_gui_input
+Orphan StringName: e_connectedKnodes
+Orphan StringName: AreaWoZi
+Orphan StringName: res://LevelView.gd::14::LevelView.ownInit
+Orphan StringName: res://KnodesLogic.gd
+Orphan StringName: res://Modul.gd::128::Module.release_from_front
+Orphan StringName: custom_colors/font_color
+Orphan StringName: _on_TurnCCW_gui_input
+Orphan StringName: KapitelInfo
+Orphan StringName: Light2D2
+Orphan StringName: Light2D3
+Orphan StringName: Gneighs
+Orphan StringName: _on_lpfeil_gui_input
+Orphan StringName: e_originalR
+Orphan StringName: geleseneSeiten
+Orphan StringName: hasModulEdge
+Orphan StringName: res://Arrows.gd::35::_on_ControlLeft_mouse_entered
+Orphan StringName: res://Battery.gd::13::Battery.myInit
+Orphan StringName: Kinderzimmer
+Orphan StringName: res://Arrows.gd::0::_init
+Orphan StringName: makeSquare
+Orphan StringName: rootK
+Orphan StringName: CutGUI
+Orphan StringName: valR
+Orphan StringName: valU
+Orphan StringName: rpfeil
+Orphan StringName: res://LevelView.gd::21::LevelView._on_LevelSum1_gui_input
+Orphan StringName: _on_ControlRight_mouse_entered
+Orphan StringName: res://ElectricSolver.gd::81::ElectricSolver.findG
+Orphan StringName: WohnZimmer
+Orphan StringName: margin_top
+Orphan StringName: get_position_in_parent
+Orphan StringName: InfoSprite
+Orphan StringName: res://Battery.gd::19::Battery._process
+Orphan StringName: res://HouseScene.gd::36::setRoomSate
+Orphan StringName: res://ModulLogik.gd::7::own_init
+Orphan StringName: Battery
+Orphan StringName: TurnCCW
+Orphan StringName: lkIndex
+Orphan StringName: res://LvlIndex.gd::10::_ready
+Orphan StringName: res://ElectricSolver.gd::336::ElectricSolver.electricGauss
+Orphan StringName: res://Blanco.gd::14::_on_rpfeil_gui_input
+Orphan StringName: zurueck
+Orphan StringName: delta
+Orphan StringName: TurnLSprite
+Orphan StringName: res://Uebersicht.gd::11::_on_Uebersicht_gui_input
+Orphan StringName: _on_newBattery_gui_input
+Orphan StringName: res://Modul.gd::163::Module._on_Delete_gui_input
+Orphan StringName: res://Szenen/MainMenuBtn.gd::15::_on_newGame_mouse_entered
+Orphan StringName: res://InfoSprite.gd::11::_ready
+Orphan StringName: unten
+Orphan StringName: edgeClass
+Orphan StringName: res://ArrowLeftRight.gd
+Orphan StringName: script
+Orphan StringName: living_r
+Orphan StringName: YSort
+Orphan StringName: res://Szenen/MainMenu.gd::0::_init
+Orphan StringName: Arrow
+Orphan StringName: _on_newCable_gui_input
+Orphan StringName: ArrowLeft
+Orphan StringName: myInit
+Orphan StringName: Starten
+Orphan StringName: res://WoZi.gd
+Orphan StringName: _child_minsize_changed
+Orphan StringName: allModulesBase
+Orphan StringName: _shape_changed
+StringName: 785 unclaimed string names at exit.
+**ERROR**: There are still MemoryPool allocs in use at exit!
+   At: core/pool_vector.cpp:69:cleanup() - Condition "allocs_used > 0" is true.

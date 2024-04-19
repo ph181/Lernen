@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Szenen/DG/Battery.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Szenen/DG/EdgeLine.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Szenen/DG/Lampe.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Szenen/Levels/Aufgabe3.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Szenen/Levels/AufgabenListeBase.tscn" type="PackedScene" id=5]
+
+[node name="AufgListe3" instance=ExtResource( 5 )]
+
+[node name="EdgeLine" parent="Table/Edges" index="0" instance=ExtResource( 2 )]
+position = Vector2( 387.172, 268.656 )
+
+[node name="EdgeLine2" parent="Table/Edges" index="1" instance=ExtResource( 2 )]
+position = Vector2( 881.639, 237.862 )
+
+[node name="EdgeLine3" parent="Table/Edges" index="2" instance=ExtResource( 2 )]
+position = Vector2( 393.523, 474.378 )
+
+[node name="EdgeLine4" parent="Table/Edges" index="3" instance=ExtResource( 2 )]
+position = Vector2( 886.042, 415.232 )
+
+[node name="Battery" parent="Table/Modules/YSort" index="0" instance=ExtResource( 1 )]
+position = Vector2( 619.253, 461.154 )
+
+[node name="Lampe" parent="Table/Modules/YSort" index="1" instance=ExtResource( 3 )]
+position = Vector2( 565.518, 317.047 )
+
+[node name="Lampe2" parent="Table/Modules/YSort" index="2" instance=ExtResource( 3 )]
+position = Vector2( 668.103, 319.489 )
+
+[node name="Aufgabe3" parent="AufgabenFrame/ScrollContainer/Control" index="0" instance=ExtResource( 4 )]
+margin_top = 0.0
+margin_right = 211.0
+margin_bottom = 65.0
+
+[node name="JumpToPage" parent="." index="2"]
+page_number = 3

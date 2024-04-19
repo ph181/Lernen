@@ -1,0 +1,256 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://Szenen/Levels/Kapitel.gd" type="Script" id=1]
+[ext_resource path="res://Grafik/Assets/GUI/exp_abges.png" type="Texture" id=2]
+[ext_resource path="res://Grafik/Assets/GUI/nur_geschafft.png" type="Texture" id=3]
+[ext_resource path="res://Grafik/Assets/GUI/empty_frame.png" type="Texture" id=4]
+[ext_resource path="res://Grafik/Assets/GUI/particle.png" type="Texture" id=5]
+
+[sub_resource type="Animation" id=1]
+length = 3.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("LevelComplete:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1, 1.2, 1.7, 1.8, 1.9, 2, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Circle:mesh:radius")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.8, 3 ),
+"transitions": PoolRealArray( 0.406126, 2.54912, 0.406126 ),
+"update": 0,
+"values": [ 1.0, 150.0, 1.0 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Circle:mesh:height")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.8, 3 ),
+"transitions": PoolRealArray( 0.435275, 2.21914, 0.435275 ),
+"update": 0,
+"values": [ 1.0, 300.0, 1.0 ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Circle:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.3, 0.8, 3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0.101961, 0.156863, 0.219608, 0.196078 ), Color( 0.101961, 0.156863, 0.219608, 0.356863 ), Color( 0.105882, 0.14902, 0.2, 0.921569 ), Color( 0.101961, 0.156863, 0.219608, 0.196078 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath(".:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "lvlend"
+length = 0.4
+tracks/0/type = "value"
+tracks/0/path = NodePath("../Lvlend:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 1, 0.0769466 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="SphereMesh" id=3]
+height = 1.0
+radial_segments = 32
+
+[sub_resource type="Curve" id=4]
+_data = [ Vector2( 0.0384616, 0 ), 0.0, 0.0, 0, 0, Vector2( 1, 1 ), 0.0, 0.0, 0, 0 ]
+
+[sub_resource type="DynamicFontData" id=8]
+font_path = "res://fonts/Terminal-Grotesque-master/Terminal-Grotesque-master/terminal-grotesque.ttf"
+
+[sub_resource type="DynamicFont" id=5]
+size = 54
+extra_spacing_bottom = 5
+font_data = SubResource( 8 )
+
+[sub_resource type="DynamicFontData" id=9]
+font_path = "res://fonts/Terminal-Grotesque-master/Terminal-Grotesque-master/terminal-grotesque.ttf"
+
+[sub_resource type="DynamicFont" id=6]
+font_data = SubResource( 9 )
+
+[sub_resource type="DynamicFontData" id=10]
+font_path = "res://fonts/Terminal-Grotesque-master/Terminal-Grotesque-master/terminal-grotesque.ttf"
+
+[sub_resource type="DynamicFont" id=7]
+size = 20
+extra_spacing_bottom = 5
+font_data = SubResource( 10 )
+
+[node name="Kapitel" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="CurrentAufgabe" type="Node2D" parent="."]
+
+[node name="LevelComplete" type="Node2D" parent="."]
+position = Vector2( 632, 256 )
+scale = Vector2( 1.7, 1.7 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="LevelComplete"]
+playback_speed = 0.5
+anims/LevelComplete = SubResource( 1 )
+anims/lvlend = SubResource( 2 )
+
+[node name="Circle" type="MeshInstance2D" parent="LevelComplete"]
+modulate = Color( 0.101961, 0.156863, 0.219608, 0.196078 )
+position = Vector2( 0, 35.2941 )
+mesh = SubResource( 3 )
+
+[node name="LevelComplete" type="Sprite" parent="LevelComplete"]
+visible = false
+z_index = 2
+texture = ExtResource( 3 )
+hframes = 4
+vframes = 3
+
+[node name="Particles2D" type="CPUParticles2D" parent="LevelComplete/LevelComplete"]
+position = Vector2( 0, 37.6471 )
+amount = 35
+lifetime = 7.0
+speed_scale = 1.5
+explosiveness = 0.93
+randomness = 0.4
+lifetime_randomness = 0.82
+texture = ExtResource( 5 )
+spread = 180.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 90.0
+initial_velocity_random = 0.31
+angular_velocity = 28.0
+linear_accel = 1.0
+damping = 22.0
+angle = 45.0
+angle_random = 1.0
+scale_amount = 0.5
+scale_amount_random = 0.3
+scale_amount_curve = SubResource( 4 )
+
+[node name="Lvlend" type="Node2D" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+position = Vector2( 397.944, 193.594 )
+z_index = 1
+
+[node name="Control2" type="Control" parent="Lvlend"]
+visible = false
+margin_left = 440.0
+margin_top = 112.0
+margin_right = 816.0
+margin_bottom = 496.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control" type="Control" parent="Lvlend"]
+margin_left = 781.0
+margin_top = 212.0
+margin_right = 825.0
+margin_bottom = 252.0
+mouse_default_cursor_shape = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LvlEndedMenu" type="Sprite" parent="Lvlend"]
+visible = false
+position = Vector2( 632, 312 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 2 )
+
+[node name="Continue" type="Sprite" parent="Lvlend"]
+position = Vector2( 632, 383.331 )
+scale = Vector2( 0.4741, 0.4741 )
+texture = ExtResource( 4 )
+
+[node name="Label" type="Label" parent="Lvlend/Continue"]
+margin_left = -236.0
+margin_top = -34.0
+margin_right = 236.0
+margin_bottom = 34.0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 1, 0.462745, 0.47451, 1 )
+custom_fonts/font = SubResource( 5 )
+text = "weiter"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Continue" type="Control" parent="Lvlend/Continue"]
+margin_left = -236.0
+margin_top = -34.0
+margin_right = 236.0
+margin_bottom = 33.0
+mouse_default_cursor_shape = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Text" type="Label" parent="Lvlend"]
+visible = false
+margin_left = 471.0
+margin_top = 261.0
+margin_right = 789.0
+margin_bottom = 372.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 6 )
+text = "Super! Du hast es geschafft! Klicke auf Weiter für die nächste Aufgabe, oder kehre zur Aufgaben Übersicht zurück."
+autowrap = true
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Titel" type="Label" parent="Lvlend"]
+visible = false
+margin_left = 467.0
+margin_top = 208.0
+margin_right = 795.0
+margin_bottom = 256.0
+custom_fonts/font = SubResource( 7 )
+text = "Aufgabe abgeschlossen"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="gui_input" from="Lvlend/Control" to="." method="_on_Control_gui_input"]
+[connection signal="gui_input" from="Lvlend/Continue/Continue" to="." method="_on_Continue_gui_input"]

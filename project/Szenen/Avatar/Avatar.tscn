@@ -1,0 +1,362 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://Szenen/Avatar/Avatar.gd" type="Script" id=1]
+[ext_resource path="res://Szenen/GUI/MainMenuBtn.gd" type="Script" id=2]
+[ext_resource path="res://Szenen/GUI/BtnMainMenuBg.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Grafik/Avatar/Frames/avatar_frame.png" type="Texture" id=4]
+[ext_resource path="res://Grafik/Avatar/Frames/arrow.png" type="Texture" id=5]
+[ext_resource path="res://Grafik/Assets/GUI/Background.png" type="Texture" id=6]
+[ext_resource path="res://Szenen/Avatar/Name.gd" type="Script" id=9]
+[ext_resource path="res://Grafik/Assets/GUI/dice.png" type="Texture" id=10]
+[ext_resource path="res://Grafik/Assets/GUI/HelloYou.png" type="Texture" id=11]
+[ext_resource path="res://Szenen/Avatar/CompositeSprites.tscn" type="PackedScene" id=12]
+
+[sub_resource type="DynamicFontData" id=12]
+font_path = "res://fonts/Terminal-Grotesque-master/Terminal-Grotesque-master/terminal-grotesque_open.otf"
+
+[sub_resource type="DynamicFont" id=5]
+size = 64
+extra_spacing_space = 16
+font_data = SubResource( 12 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 1, 0.803922, 0.615686, 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 1, 0.803922, 0.615686, 1 )
+
+[sub_resource type="DynamicFontData" id=13]
+font_path = "res://fonts/Terminal-Grotesque-master/Terminal-Grotesque-master/terminal-grotesque.ttf"
+
+[sub_resource type="DynamicFont" id=14]
+size = 26
+font_data = SubResource( 13 )
+
+[sub_resource type="DynamicFontData" id=10]
+font_path = "res://fonts/Terminal-Grotesque-master/Terminal-Grotesque-master/terminal-grotesque.ttf"
+
+[sub_resource type="DynamicFont" id=1]
+size = 36
+font_data = SubResource( 10 )
+
+[sub_resource type="DynamicFontData" id=11]
+font_path = "res://fonts/Terminal-Grotesque-master/Terminal-Grotesque-master/terminal-grotesque.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 36
+font_data = SubResource( 11 )
+
+[node name="Avatar" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 640, 356.492 )
+texture = ExtResource( 6 )
+
+[node name="avatarframe" type="Sprite" parent="."]
+position = Vector2( 647.308, 350 )
+texture = ExtResource( 4 )
+
+[node name="CompositeSprites" parent="." instance=ExtResource( 12 )]
+position = Vector2( 631.176, 353.676 )
+
+[node name="Haare" type="Node2D" parent="."]
+position = Vector2( -290, -8 )
+scale = Vector2( 1.3, 1.3 )
+
+[node name="arrowl" type="Sprite" parent="Haare"]
+position = Vector2( 550, 160 )
+texture = ExtResource( 5 )
+
+[node name="hl" type="Control" parent="Haare/arrowl"]
+margin_left = -23.244
+margin_top = -21.2098
+margin_right = 23.756
+margin_bottom = 21.7902
+mouse_default_cursor_shape = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="arrowr" type="Sprite" parent="Haare"]
+position = Vector2( 893.847, 160 )
+texture = ExtResource( 5 )
+flip_h = true
+
+[node name="hr" type="Control" parent="Haare/arrowr"]
+margin_left = -22.1852
+margin_top = -21.4327
+margin_right = 24.8148
+margin_bottom = 20.5673
+mouse_default_cursor_shape = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Körper" type="Node2D" parent="."]
+position = Vector2( -290, -8 )
+scale = Vector2( 1.3, 1.3 )
+
+[node name="arrowl" type="Sprite" parent="Körper"]
+position = Vector2( 550, 230 )
+texture = ExtResource( 5 )
+
+[node name="kl" type="Control" parent="Körper/arrowl"]
+margin_left = -24.0
+margin_top = -21.0
+margin_right = 23.0
+margin_bottom = 22.0
+mouse_default_cursor_shape = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="arrowr" type="Sprite" parent="Körper"]
+position = Vector2( 893.847, 230 )
+texture = ExtResource( 5 )
+flip_h = true
+
+[node name="kr" type="Control" parent="Körper/arrowr"]
+margin_left = -22.9412
+margin_top = -21.2229
+margin_right = 24.0588
+margin_bottom = 20.7771
+mouse_default_cursor_shape = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Oben" type="Node2D" parent="."]
+position = Vector2( -290, -8 )
+scale = Vector2( 1.3, 1.3 )
+
+[node name="arrowl" type="Sprite" parent="Oben"]
+position = Vector2( 550, 370 )
+texture = ExtResource( 5 )
+
+[node name="ol" type="Control" parent="Oben/arrowl"]
+margin_left = -23.244
+margin_top = -21.3147
+margin_right = 23.756
+margin_bottom = 21.6853
+mouse_default_cursor_shape = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="arrowr" type="Sprite" parent="Oben"]
+position = Vector2( 893.847, 370 )
+texture = ExtResource( 5 )
+flip_h = true
+
+[node name="or" type="Control" parent="Oben/arrowr"]
+margin_left = -22.1852
+margin_top = -20.0256
+margin_right = 24.8148
+margin_bottom = 21.9744
+mouse_default_cursor_shape = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Unten" type="Node2D" parent="."]
+position = Vector2( -290, -8 )
+scale = Vector2( 1.3, 1.3 )
+
+[node name="arrowl" type="Sprite" parent="Unten"]
+position = Vector2( 550, 440 )
+texture = ExtResource( 5 )
+
+[node name="ul" type="Control" parent="Unten/arrowl"]
+margin_left = -23.244
+margin_top = -22.1756
+margin_right = 23.756
+margin_bottom = 20.8244
+mouse_default_cursor_shape = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="arrowr" type="Sprite" parent="Unten"]
+position = Vector2( 893.847, 440 )
+texture = ExtResource( 5 )
+flip_h = true
+
+[node name="ur" type="Control" parent="Unten/arrowr"]
+margin_left = -22.1852
+margin_top = -20.8865
+margin_right = 24.8148
+margin_bottom = 21.1135
+mouse_default_cursor_shape = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Extras" type="Node2D" parent="."]
+position = Vector2( -290, -8 )
+scale = Vector2( 1.3, 1.3 )
+
+[node name="arrowl" type="Sprite" parent="Extras"]
+position = Vector2( 550, 300 )
+texture = ExtResource( 5 )
+
+[node name="el" type="Control" parent="Extras/arrowl"]
+margin_left = -23.244
+margin_top = -23.0365
+margin_right = 23.756
+margin_bottom = 19.9635
+mouse_default_cursor_shape = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="arrowr" type="Sprite" parent="Extras"]
+position = Vector2( 893.847, 300 )
+texture = ExtResource( 5 )
+flip_h = true
+
+[node name="er" type="Control" parent="Extras/arrowr"]
+margin_left = -22.1852
+margin_top = -20.9914
+margin_right = 24.8148
+margin_bottom = 21.0086
+mouse_default_cursor_shape = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Randomizer" type="Node2D" parent="."]
+position = Vector2( 667.19, 576.424 )
+scale = Vector2( 1.5, 1.5 )
+
+[node name="Sprite" type="Sprite" parent="Randomizer"]
+texture = ExtResource( 10 )
+
+[node name="Control" type="Control" parent="Randomizer/Sprite"]
+margin_left = -18.4921
+margin_top = -16.8604
+margin_right = 21.5079
+margin_bottom = 23.1396
+mouse_default_cursor_shape = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Name" type="LineEdit" parent="."]
+margin_left = 364.0
+margin_top = 71.0
+margin_right = 929.0
+margin_bottom = 140.0
+focus_mode = 1
+custom_colors/cursor_color = Color( 1, 0.462745, 0.47451, 1 )
+custom_colors/font_color = Color( 1, 0.462745, 0.47451, 1 )
+custom_fonts/font = SubResource( 5 )
+custom_styles/focus = SubResource( 3 )
+custom_styles/normal = SubResource( 4 )
+align = 1
+max_length = 12
+context_menu_enabled = false
+placeholder_text = "Dein Name"
+caret_blink = true
+script = ExtResource( 9 )
+
+[node name="Hello" type="Sprite" parent="."]
+visible = false
+position = Vector2( 332.171, 350 )
+texture = ExtResource( 11 )
+
+[node name="hi" type="Label" parent="Hello"]
+anchor_left = 0.018
+anchor_top = 0.123
+anchor_right = 0.018
+anchor_bottom = 0.123
+margin_left = -226.928
+margin_top = -333.618
+margin_right = 213.072
+margin_bottom = 199.382
+mouse_default_cursor_shape = 1
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 14 )
+text = "Herzlich Willkommen!
+Dies ist eine Testversion"
+autowrap = true
+clip_text = true
+
+[node name="Weiter" type="Node2D" parent="."]
+visible = false
+position = Vector2( 1123.48, 784.798 )
+script = ExtResource( 2 )
+
+[node name="weiter" parent="Weiter" instance=ExtResource( 3 )]
+position = Vector2( 1, -90 )
+
+[node name="Label" type="Label" parent="Weiter"]
+margin_left = -151.0
+margin_top = -114.708
+margin_right = 153.0
+margin_bottom = -70.7083
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 1, 0.462745, 0.47451, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "starten"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Zurueck" type="Node2D" parent="."]
+position = Vector2( 155.48, 784.798 )
+script = ExtResource( 2 )
+
+[node name="zurueck" parent="Zurueck" instance=ExtResource( 3 )]
+
+[node name="Label" type="Label" parent="Zurueck"]
+margin_left = -152.0
+margin_top = -116.0
+margin_right = 153.0
+margin_bottom = -73.0
+mouse_default_cursor_shape = 2
+custom_colors/font_color = Color( 1, 0.462745, 0.47451, 1 )
+custom_fonts/font = SubResource( 2 )
+text = " zurück"
+align = 1
+valign = 1
+
+[connection signal="gui_input" from="Haare/arrowl/hl" to="." method="_on_hl_gui_input"]
+[connection signal="mouse_entered" from="Haare/arrowl/hl" to="." method="_on_hl_mouse_entered"]
+[connection signal="mouse_exited" from="Haare/arrowl/hl" to="." method="_on_hl_mouse_exited"]
+[connection signal="gui_input" from="Haare/arrowr/hr" to="." method="_on_hr_gui_input"]
+[connection signal="mouse_entered" from="Haare/arrowr/hr" to="." method="_on_hr_mouse_entered"]
+[connection signal="mouse_exited" from="Haare/arrowr/hr" to="." method="_on_hr_mouse_exited"]
+[connection signal="gui_input" from="Körper/arrowl/kl" to="." method="_on_kl_gui_input"]
+[connection signal="mouse_entered" from="Körper/arrowl/kl" to="." method="_on_kl_mouse_entered"]
+[connection signal="mouse_exited" from="Körper/arrowl/kl" to="." method="_on_kl_mouse_exited"]
+[connection signal="gui_input" from="Körper/arrowr/kr" to="." method="_on_kr_gui_input"]
+[connection signal="mouse_entered" from="Körper/arrowr/kr" to="." method="_on_kr_mouse_entered"]
+[connection signal="mouse_exited" from="Körper/arrowr/kr" to="." method="_on_kr_mouse_exited"]
+[connection signal="gui_input" from="Oben/arrowl/ol" to="." method="_on_ol_gui_input"]
+[connection signal="mouse_entered" from="Oben/arrowl/ol" to="." method="_on_ol_mouse_entered"]
+[connection signal="mouse_exited" from="Oben/arrowl/ol" to="." method="_on_ol_mouse_exited"]
+[connection signal="gui_input" from="Oben/arrowr/or" to="." method="_on_or_gui_input"]
+[connection signal="mouse_entered" from="Oben/arrowr/or" to="." method="_on_or_mouse_entered"]
+[connection signal="mouse_exited" from="Oben/arrowr/or" to="." method="_on_or_mouse_exited"]
+[connection signal="gui_input" from="Unten/arrowl/ul" to="." method="_on_ul_gui_input"]
+[connection signal="mouse_entered" from="Unten/arrowl/ul" to="." method="_on_ul_mouse_entered"]
+[connection signal="mouse_exited" from="Unten/arrowl/ul" to="." method="_on_ul_mouse_exited"]
+[connection signal="gui_input" from="Unten/arrowr/ur" to="." method="_on_ur_gui_input"]
+[connection signal="mouse_entered" from="Unten/arrowr/ur" to="." method="_on_ur_mouse_entered"]
+[connection signal="mouse_exited" from="Unten/arrowr/ur" to="." method="_on_ur_mouse_exited"]
+[connection signal="gui_input" from="Extras/arrowl/el" to="." method="_on_el_gui_input"]
+[connection signal="mouse_entered" from="Extras/arrowl/el" to="." method="_on_el_mouse_entered"]
+[connection signal="mouse_exited" from="Extras/arrowl/el" to="." method="_on_el_mouse_exited"]
+[connection signal="gui_input" from="Extras/arrowr/er" to="." method="_on_er_gui_input"]
+[connection signal="mouse_entered" from="Extras/arrowr/er" to="." method="_on_er_mouse_entered"]
+[connection signal="mouse_exited" from="Extras/arrowr/er" to="." method="_on_er_mouse_exited"]
+[connection signal="gui_input" from="Randomizer/Sprite/Control" to="." method="_on_Control_gui_input"]
+[connection signal="mouse_entered" from="Randomizer/Sprite/Control" to="." method="_on_Control_mouse_entered"]
+[connection signal="mouse_exited" from="Randomizer/Sprite/Control" to="." method="_on_Control_mouse_exited"]
+[connection signal="text_changed" from="Name" to="." method="_on_Name_text_changed"]
+[connection signal="text_entered" from="Name" to="." method="_on_Name_text_entered"]
+[connection signal="clicked" from="Weiter/weiter" to="." method="_on_weiter_clicked"]
+[connection signal="clicked" from="Zurueck/zurueck" to="." method="_on_zurueck_clicked"]

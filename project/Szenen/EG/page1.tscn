@@ -1,0 +1,67 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Grafik/Assets/Wohnzimmer/Bilder/1_Polstellen.png" type="Texture" id=1]
+[ext_resource path="res://Szenen/EG/page.tscn" type="PackedScene" id=2]
+
+[sub_resource type="AtlasTexture" id=1]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 0, 0, 320, 160 )
+
+[sub_resource type="AtlasTexture" id=2]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 320, 0, 320, 160 )
+
+[sub_resource type="AtlasTexture" id=3]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 640, 0, 320, 160 )
+
+[sub_resource type="AtlasTexture" id=4]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 960, 0, 320, 160 )
+
+[sub_resource type="SpriteFrames" id=5]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="page1" instance=ExtResource( 2 )]
+
+[node name="Titel" parent="." index="3"]
+text = "Der elektrische Stromkreis"
+
+[node name="Label" parent="." index="4"]
+text = "Ein elektrischer Stromkreis besteht im einfachsten Falle aus:
+● einem Elektrizitätsantrieb (z.B. einer Batterie, einem Akku oder Netzgerät)
+● einem Nutzer der Elektrizität (z.B. einem Lämpchen oder einem Motor)
+● und wird durch Leiter (z.B. Kabel) verbunden.
+Die meisten Elektrizitätsantriebe und Nutzer haben zwei Pole: einen Plus- und einen Minuspol. Als Pole bezeichnet man zwei gegensätzliche Stellen. "
+
+[node name="AnimatedSprite" parent="." index="5"]
+position = Vector2( 201.598, 506.34 )
+frames = SubResource( 5 )
+speed_scale = 0.3
+
+[node name="TextureRect2" parent="AnimatedSprite" index="0"]
+margin_left = -171.0
+margin_top = -77.0
+margin_right = 171.0
+margin_bottom = 52.0
+
+[node name="Bildunterschrift" parent="." index="6"]
+margin_left = 310.0
+margin_top = 448.0
+margin_right = 490.0
+margin_bottom = 532.0
+text = "Bild 1. Pole bei Batterie und Lampe."
+
+[node name="Sprite" parent="." index="7"]
+visible = false
+position = Vector2( 207.053, 506.425 )
+texture = ExtResource( 1 )

@@ -1,0 +1,84 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Szenen/InfoFrameEdge.gd" type="Script" id=1]
+
+[node name="InfoFrameEdge" type="Node2D"]
+position = Vector2( 88, 48 )
+z_index = 5
+script = ExtResource( 1 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = -72.0
+margin_top = -40.0
+margin_right = 72.0
+margin_bottom = 40.0
+color = Color( 0.133333, 0.168627, 0.364706, 0.858824 )
+
+[node name="I" type="Label" parent="."]
+margin_left = -64.0
+margin_top = -32.0
+margin_bottom = -18.0
+text = "I:"
+
+[node name="U" type="Label" parent="."]
+margin_left = -64.0
+margin_bottom = 14.0
+text = "U"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="R" type="Label" parent="."]
+margin_left = 8.0
+margin_right = 24.0
+margin_bottom = 14.0
+text = "R"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VoltageSlider" type="HSlider" parent="."]
+margin_left = -64.0
+margin_top = 16.0
+margin_right = -8.0
+margin_bottom = 32.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ResistanceSlider" type="HSlider" parent="."]
+margin_left = 8.0
+margin_top = 16.0
+margin_right = 64.0
+margin_bottom = 32.0
+min_value = 0.001
+value = 0.001
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Close" type="Node2D" parent="."]
+
+[node name="Close" type="Label" parent="Close"]
+margin_left = 56.0
+margin_top = -32.0
+margin_right = 64.0
+margin_bottom = -18.0
+rect_pivot_offset = Vector2( -56, 32 )
+text = "X"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control" type="Control" parent="Close"]
+margin_left = 48.0
+margin_top = -40.0
+margin_right = 72.0
+margin_bottom = -16.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="value_changed" from="VoltageSlider" to="." method="_on_VoltageSlider_value_changed"]
+[connection signal="value_changed" from="ResistanceSlider" to="." method="_on_ResistanceSlider_value_changed"]
+[connection signal="gui_input" from="Close/Control" to="." method="_on_Control_gui_input"]

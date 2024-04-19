@@ -1,0 +1,223 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://Szenen/EG/page.gd" type="Script" id=1]
+[ext_resource path="res://Grafik/Assets/Wohnzimmer/Bilder/Inhalt.png" type="Texture" id=2]
+
+[sub_resource type="DynamicFontData" id=13]
+font_path = "res://fonts/Terminal-Grotesque-master/Terminal-Grotesque-master/terminal-grotesque.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 20
+font_data = SubResource( 13 )
+
+[sub_resource type="Animation" id=3]
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "fadeIndirect"
+length = 1.3
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 1.2 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 1.2 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=5]
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="DynamicFontData" id=14]
+font_path = "res://fonts/Terminal-Grotesque-master/Terminal-Grotesque-master/terminal-grotesque.ttf"
+
+[sub_resource type="DynamicFont" id=8]
+size = 30
+font_data = SubResource( 14 )
+
+[sub_resource type="DynamicFontData" id=15]
+font_path = "res://fonts/Terminal-Grotesque-master/Terminal-Grotesque-master/terminal-grotesque.ttf"
+
+[sub_resource type="DynamicFont" id=16]
+size = 24
+extra_spacing_top = 1
+extra_spacing_bottom = 1
+font_data = SubResource( 15 )
+
+[sub_resource type="DynamicFontData" id=17]
+font_path = "res://fonts/Terminal-Grotesque-master/Terminal-Grotesque-master/terminal-grotesque.ttf"
+
+[sub_resource type="DynamicFont" id=18]
+size = 18
+font_data = SubResource( 17 )
+
+[node name="page1" type="Node2D"]
+position = Vector2( 128, 48 )
+script = ExtResource( 1 )
+
+[node name="Inhalt" type="TextureRect" parent="."]
+margin_left = -36.6028
+margin_top = -45.9215
+margin_right = 184.397
+margin_bottom = 96.0785
+mouse_default_cursor_shape = 2
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Inhalt"]
+margin_left = 69.4428
+margin_top = 8.57445
+margin_right = 114.443
+margin_bottom = 34.5744
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "Inhalt"
+
+[node name="pageNr" type="Label" parent="."]
+margin_left = 223.0
+margin_top = 580.0
+margin_right = 254.0
+margin_bottom = 594.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "-"
+align = 1
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/fadeIn = SubResource( 3 )
+anims/fadeIndirect = SubResource( 4 )
+anims/fadeOut = SubResource( 5 )
+anims/fadeOutInv = SubResource( 6 )
+
+[node name="Titel" type="Label" parent="."]
+margin_left = 24.0
+margin_top = 2.0
+margin_right = 461.0
+margin_bottom = 33.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 8 )
+text = "Überschrift"
+align = 1
+autowrap = true
+
+[node name="Label" type="Label" parent="."]
+margin_left = 24.0
+margin_top = 61.0
+margin_right = 468.0
+margin_bottom = 586.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 16 )
+text = "affajsfajnfnwe;lfn;lwakenf;lkenwfl;aknew;laknf;klewna;lkfnwklfnl;kweanl;kn kwelnaf;lkewnf;lkwena;flknaw;lekfn;lkwaenf;lweanl;knlekwfl;ewknflekwnaf;lkfnlweknflwkaenfl;kwenf;lkewnflkwenf;lknklenl fan;lewkfn;lekwanf;lkewnf;l knwl;eaknf ;lekwnf lkewnl;fn ;lwkenf;lk n;ewlkfn lkwenf l;wekfn;l ekwnf;lekwn ;flknewf klewa lf;e;walk fl; kn;lawenk f;lewknf l;knwelk nfl;ekwn f;lknwea l;fkn we;alkn;l ewknfewlk newaffajsfajnfnwe;lfn;lwakenf;lkenwfl;aknew;laknf;klewna;lkfnwklfnl;kweanl;kn kwelnaf;lkewnf;lkwena;flknaw;lekfn;lkwaenf;lweanl;knlekwfl;ewknflekwnaf;lkfnlweknflwkaenfl;kwenf;lkewnflkwenf;lknklenl fan;lewkfn;lekwanf;lkewnf;l knwl;eaknf ;lekwnf lkewnl;fn ;lwkenf;lk n;ewlkfn lkwenf l;wekfn;l ekwnf;lekwn ;flknewf klewa lf;e;walk fl; kn;lawenk f;lewknf l;knwelk nfl;ekwn f;lknwea l;fkn we;alkn;l ewknfewlk newaffajsfajnfnwe;lfn;lwakenf;lkenwfl;aknew;laknf;klewna;lkfnwklfnl;kweanl;kn kwelnaf;lkewnf;lkwena;flknaw;lekfn;lkwaenf;lweanl;knlekwfl;ewknflekwnaf;lkfnlweknflwkaenfl;kwenf;lkewnflkwenf;lknklenl fan;lewkfn;lekwanf;lkewnf;l knwl;eaknf ;lekwnf lkewnl;fn ;lwkenf;lk n;ewlkfn lkwenf l;wekfn;l ekwnf;lekwn ;flknewf klewa lf;e;walk fl; kn;lawenk f;lewknf l;knwelk nfl;ekwn f;lknwea l;fkn we;alkn;l ewknfewlk new"
+autowrap = true
+clip_text = true
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+light_mask = 0
+
+[node name="TextureRect2" type="TextureRect" parent="AnimatedSprite"]
+margin_left = -4.0
+margin_top = -2.0
+margin_right = 24.0
+margin_bottom = 24.0
+mouse_default_cursor_shape = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Bildunterschrift" type="Label" parent="."]
+margin_left = 198.789
+margin_top = 194.257
+margin_right = 446.789
+margin_bottom = 281.257
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 18 )
+text = "Elektrizität strömt von der Batterie durch die Leiter und den Verbraucher zurück in die Batterie."
+autowrap = true
+
+[node name="Sprite" type="Sprite" parent="."]
+
+[connection signal="gui_input" from="Inhalt" to="." method="_on_Inhalt_gui_input"]
+[connection signal="mouse_entered" from="AnimatedSprite/TextureRect2" to="." method="_on_TextureRect2_mouse_entered"]
+[connection signal="mouse_exited" from="AnimatedSprite/TextureRect2" to="." method="_on_TextureRect2_mouse_exited"]

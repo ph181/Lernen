@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Szenen/Levels/AufgabenView2.gd" type="Script" id=1]
+[ext_resource path="res://Szenen/Levels/AufgabenView.tscn" type="PackedScene" id=2]
+
+[node name="AufgabenView2" instance=ExtResource( 2 )]
+script = ExtResource( 1 )
+
+[node name="Label" parent="Menuframe" index="0"]
+margin_bottom = -215.0
+text = "Kapitel 2"
+
+[node name="Label" parent="Button" index="1"]
+mouse_default_cursor_shape = 2

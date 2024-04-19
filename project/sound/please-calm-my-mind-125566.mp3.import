@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/please-calm-my-mind-125566.mp3-dcce7789e7aa0c50c06f970bd153668d.mp3str"
+
+[deps]
+
+source_file="res://sound/please-calm-my-mind-125566.mp3"
+dest_files=[ "res://.import/please-calm-my-mind-125566.mp3-dcce7789e7aa0c50c06f970bd153668d.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

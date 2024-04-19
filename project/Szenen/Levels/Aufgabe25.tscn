@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Szenen/Levels/AufgabeBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Szenen/Levels/Aufgabe25.gd" type="Script" id=2]
+
+[node name="Aufgabe25" instance=ExtResource( 1 )]
+margin_bottom = 147.0
+script = ExtResource( 2 )
+
+[node name="Aufgabe" parent="." index="0"]
+text = "Die Lichterkette"
+
+[node name="Label" parent="Aufgabe" index="0"]
+margin_bottom = 197.0
+text = "Es sollen 5 Lampen über einen langen Zeitraum leuchten, damit habe ich erstmal ausreichend Licht in den Räumen."

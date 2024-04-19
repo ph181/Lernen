@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/living.mp3-9f676a358ed87e97c11312094f9b1572.mp3str"
+
+[deps]
+
+source_file="res://sound/living.mp3"
+dest_files=[ "res://.import/living.mp3-9f676a358ed87e97c11312094f9b1572.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,68 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Grafik/Assets/Wohnzimmer/Bilder/1_Einfacher Stromkreis.png" type="Texture" id=1]
+[ext_resource path="res://Szenen/EG/page.tscn" type="PackedScene" id=2]
+
+[sub_resource type="AtlasTexture" id=1]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 0, 0, 320, 160 )
+
+[sub_resource type="AtlasTexture" id=2]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 320, 0, 320, 160 )
+
+[sub_resource type="AtlasTexture" id=3]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 640, 0, 320, 160 )
+
+[sub_resource type="AtlasTexture" id=4]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 960, 0, 320, 160 )
+
+[sub_resource type="AtlasTexture" id=5]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 1280, 0, 320, 160 )
+
+[sub_resource type="SpriteFrames" id=6]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="page1" instance=ExtResource( 2 )]
+
+[node name="Titel" parent="." index="3"]
+text = "Die elektrische Stromstärke
+"
+
+[node name="Label" parent="." index="4"]
+text = "Als elektrischer Strom wird das Strömen von Elektrizität durch einen Leiter oder einen Nutzer bezeichnet. Ein elektrischer Strom kann nur dann fließen, wenn an beiden Polen eines Elektrizitätsantriebs  eine leitende Verbindung besteht. Der elektrische Strom hat dabei eine Richtung: er fließt vom Pluspol des Elektrizitätsantriebs  zu seinem Minuspol. Dies bezeichnet man als technische Stromrichtung.
+"
+
+[node name="AnimatedSprite" parent="." index="5"]
+position = Vector2( 304, 414 )
+frames = SubResource( 6 )
+speed_scale = 0.5
+
+[node name="TextureRect2" parent="AnimatedSprite" index="0"]
+margin_left = -115.0
+margin_top = -39.0
+margin_right = 120.0
+margin_bottom = 66.0
+
+[node name="Bildunterschrift" parent="." index="6"]
+margin_left = 38.0
+margin_top = 387.0
+margin_right = 193.0
+margin_bottom = 527.0
+text = "Bild 6. Der elektrische Strom fließt vom Pluspol der Batterie zum ihrem Minuspol."
+
+[node name="Sprite" parent="." index="7"]
+visible = false
