@@ -6,209 +6,32 @@
 ;   [section] ; section goes between []
 ;   param=value ; assign values to parameters
 
-config_version=4
-
-_global_script_classes=[ {
-"base": "Module",
-"class": "Ampermeter",
-"language": "GDScript",
-"path": "res://Szenen/DG/Ampermeter.gd"
-}, {
-"base": "Node2D",
-"class": "Aufgabenview",
-"language": "GDScript",
-"path": "res://Szenen/Levels/AufgabenView.gd"
-}, {
-"base": "Control",
-"class": "Badge",
-"language": "GDScript",
-"path": "res://Szenen/EG/Badge.gd"
-}, {
-"base": "Node",
-"class": "BaseEventClass",
-"language": "GDScript",
-"path": "res://Szenen/Levels/Baseevent.gd"
-}, {
-"base": "Module",
-"class": "Battery",
-"language": "GDScript",
-"path": "res://Szenen/DG/Battery.gd"
-}, {
-"base": "Node2D",
-"class": "BookRoom",
-"language": "GDScript",
-"path": "res://Szenen/EG/WoZi.gd"
-}, {
-"base": "Node2D",
-"class": "CompositeSpriteAvatar",
-"language": "GDScript",
-"path": "res://Szenen/Avatar/CompositeSprites.gd"
-}, {
-"base": "Kapitel",
-"class": "Dachboden",
-"language": "GDScript",
-"path": "res://Szenen/Levels/Kapitel1.gd"
-}, {
-"base": "Node2D",
-"class": "Edge",
-"language": "GDScript",
-"path": "res://Szenen/DG/Edge.gd"
-}, {
-"base": "Node",
-"class": "ElectricSolver",
-"language": "GDScript",
-"path": "res://Szenen/GUI/ElectricSolver.gd"
-}, {
-"base": "Control",
-"class": "ExperimentAufgabe",
-"language": "GDScript",
-"path": "res://Szenen/Levels/AufgabeBase.gd"
-}, {
-"base": "Node2D",
-"class": "House",
-"language": "GDScript",
-"path": "res://Szenen/GUI/HouseScene.gd"
-}, {
-"base": "Node2D",
-"class": "Kapitel",
-"language": "GDScript",
-"path": "res://Szenen/Levels/Kapitel.gd"
-}, {
-"base": "Node2D",
-"class": "Knode",
-"language": "GDScript",
-"path": "res://Szenen/DG/Knode.gd"
-}, {
-"base": "Module",
-"class": "Lamp",
-"language": "GDScript",
-"path": "res://Szenen/DG/Lampe.gd"
-}, {
-"base": "Node2D",
-"class": "LevelListe",
-"language": "GDScript",
-"path": "res://Szenen/Levels/AufgabenFrame.gd"
-}, {
-"base": "Control",
-"class": "LevelSum",
-"language": "GDScript",
-"path": "res://Szenen/Levels/LevelSum.gd"
-}, {
-"base": "Node2D",
-"class": "LevelView",
-"language": "GDScript",
-"path": "res://Szenen/Levels/LevelView.gd"
-}, {
-"base": "Node2D",
-"class": "Module",
-"language": "GDScript",
-"path": "res://Szenen/DG/Modul.gd"
-}, {
-"base": "Node2D",
-"class": "MyGame",
-"language": "GDScript",
-"path": "res://Szenen/GUI/Game.gd"
-}, {
-"base": "Module",
-"class": "Resistor",
-"language": "GDScript",
-"path": "res://Szenen/DG/Resist.gd"
-}, {
-"base": "Resource",
-"class": "SaveData",
-"language": "GDScript",
-"path": "res://Szenen/GUI/SaveData.gd"
-}, {
-"base": "Node2D",
-"class": "SquareTask",
-"language": "GDScript",
-"path": "res://Szenen/OG/Task.gd"
-}, {
-"base": "Module",
-"class": "Voltmeter",
-"language": "GDScript",
-"path": "res://Szenen/DG/InvertedAmpermeter.gd"
-} ]
-_global_script_class_icons={
-"Ampermeter": "",
-"Aufgabenview": "",
-"Badge": "",
-"BaseEventClass": "",
-"Battery": "",
-"BookRoom": "",
-"CompositeSpriteAvatar": "",
-"Dachboden": "",
-"Edge": "",
-"ElectricSolver": "",
-"ExperimentAufgabe": "",
-"House": "",
-"Kapitel": "",
-"Knode": "",
-"Lamp": "",
-"LevelListe": "",
-"LevelSum": "",
-"LevelView": "",
-"Module": "",
-"MyGame": "",
-"Resistor": "",
-"SaveData": "",
-"SquareTask": "",
-"Voltmeter": ""
-}
+config_version=5
 
 [application]
 
-config/name="ELehre"
-run/main_scene="res://Szenen/GUI/Control.tscn"
-boot_splash/image="res://Grafik/Assets/Kinderzimmer/menubg.png"
+config/name="Werkzeuge"
+run/main_scene="res://Szenen/Klassenzimmer.tscn"
+config/features=PackedStringArray("4.1")
 config/icon="res://icon.png"
-
-[audio]
-
-default_bus_layout=""
-
-[autoload]
-
-Myglobals="*res://Szenen/GUI/Myglobals.gd"
-GlobalScenes="*res://Szenen/GUI/GlobalScenes.gd"
-Saver="*res://Szenen/GUI/Saver.gd"
-SaveNames="*res://Szenen/GUI/SaveNames.gd"
-DataCollected="*res://Szenen/GUI/DataCollected.gd"
-SoundFx="*res://sound/SoundFX.tscn"
-Music="*res://sound/Music.tscn"
-
-[debug]
-
-settings/fps/force_fps=30
-settings/stdout/verbose_stdout=true
 
 [display]
 
-window/size/width=1280
-window/size/height=720
-window/size/test_width=1280
-window/size/test_height=800
 window/stretch/mode="viewport"
-window/stretch/aspect="keep"
 
-[input_devices]
+[dotnet]
 
-pointing/emulate_touch_from_mouse=true
+project/assembly_name="EG-TdOT"
 
-[logging]
+[gui]
 
-file_logging/enable_file_logging=true
-
-[network]
-
-limits/debugger_stdout/max_chars_per_second=49000
+common/drop_mouse_on_gui_input_disabled=true
 
 [physics]
 
-common/physics_fps=30
+common/enable_pause_aware_picking=true
 
 [rendering]
 
 quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
-vram_compression/import_etc2=false
